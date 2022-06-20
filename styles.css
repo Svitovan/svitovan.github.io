@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+body {
+    padding: 25px;
+    background-color: #fff;
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    /* font-size: calc(var(--index) * 1); */
+    font-size: var(--index);
+}
+
+    .shell {
+        margin: 0 auto;
+        padding: 25px;
+        min-width: 320px;
+        max-width: 900px;
+        background-color: rgb(255, 249, 241);
+        box-shadow: 7px 9px 15px 5px rgba(168, 168, 168, 0.527);
+    }
+
+h2 {
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+    .photo {
+        /* margin: 25px 50px; */
+        border-radius: 50%;
+        width: 150px;
+    }
+
+main {
+    margin: 50px 0 ;
+}
+
+footer {
+    text-align: center;
+}
