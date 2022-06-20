@@ -9,6 +9,7 @@
 
 :root {
     --index: calc(1vw + 1vh);
+
 }
 
 body {
@@ -16,9 +17,10 @@ body {
     background-color: #fff;
     /* font-family: 'Special Elite', cursive; */
     font-family: 'Josefin Slab', serif;
+    font-size: 25px;
     font-weight: 500;
-    /* font-size: calc(var(--index) * 1); */
-    font-size: var(--index);
+    /* font-size: calc(var(--index) * .9); */
+    
 }
 
     .shell {
@@ -48,5 +50,15 @@ main {
 }
 
 footer {
+    font-size: 23px;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    footer {
+        font-size: 16px;
+    }
 }
