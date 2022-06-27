@@ -61,4 +61,7 @@ footer {
     footer {
         font-size: 16px;
     }
+    main {
+        margin: 20px 5px;
+    }
 }
