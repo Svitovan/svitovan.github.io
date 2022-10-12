@@ -12,7 +12,7 @@ function windowLoad() {
     const htmlBlock = document.documentElement;
 
     const saveUserTheme = localStorage.getItem('user-theme');
-
+    console.log(saveUserTheme);
     let userTheme;
     if(window.matchMedia) {
         userTheme = window.matchMedia('(prefer-color-scheme: dark)').matches ? 'dark' : 'light';
