@@ -89,6 +89,12 @@ video {
     height: 320px;
 }
 
+.prompt {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(69, 119, 121);
+}
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 18px;
