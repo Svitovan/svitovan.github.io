@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -10,7 +9,6 @@
 
 :root {
     --index: calc(1vw + 1vh);
-
 }
 
 a:link {
@@ -35,7 +33,16 @@ body {
     /* font-size: calc(var(--index) * .9); */
     
 }
-
+h1, h2 {
+    font-weight: 700;
+    text-align: center;
+}
+h3 {
+    font-weight: 700;
+}   
+strong {
+    font-weight: 600;
+}
     .shell {
         margin: 0 auto;
         padding: 25px;
@@ -53,9 +60,7 @@ body {
         100% {left: 0px; top: 0px; opacity: 1;}
     }
 
-h2 {
-    text-align: center;
-}
+
 
 ul li::marker {
     /* content: "o"; */
@@ -90,7 +95,7 @@ video {
 }
 
 .prompt {
-    font-size: 14px;
+    font-size: 10px;
     font-style: italic;
     color: rgb(69, 119, 121);
 }
