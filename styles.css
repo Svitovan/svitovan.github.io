@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
 	margin: 0;
@@ -33,10 +34,10 @@ body {
     /* font-family: 'Josefin Slab', serif; */
     /* font-family: 'Nunito', sans-serif; */
     /* font-family: 'Marmelad', sans-serif;	*/
-    font-family: 'Quicksand', sans-serif;
-    
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Playpen Sans', cursive;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     /* font-size: calc(var(--index) * .9); */
     
 }
@@ -92,7 +93,7 @@ main {
     margin: 50px 25px;
 }
     .company {
-        font-weight: 500;
+        font-weight: 400;
     }
     
 
