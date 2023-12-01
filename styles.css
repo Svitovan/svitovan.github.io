@@ -11,10 +11,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 :root {
     --index: calc(1vw + 1vh);
 }
+
 
 a:link {
     text-decoration: none;
@@ -25,10 +25,6 @@ a:visited {
 }
 a:hover {
     text-decoration: underline;
-}
-
-.f24px {
- font-size: 24px;
 }
 
 body {
@@ -107,7 +103,8 @@ footer {
 }
 
 video {
-    height: 320px;
+    max-width: 50%;
+    border-radius: 7%;
 }
 
 .prompt {
