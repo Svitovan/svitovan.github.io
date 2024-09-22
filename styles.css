@@ -88,7 +88,16 @@ header{
         border-radius: 1%;
         width: 550px;
         box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527);
-
+    }
+    .photo2 {
+        margin: 0 auto;
+        background-size: cover;
+        background-image: url("img/img_25.jpeg");
+        width: 600px; 
+        height: 398px; 
+    }
+    .photo2:hover {
+        background-image: url("img/img_30.jpeg");
     }
 
 main {
@@ -97,7 +106,6 @@ main {
     .company {
         font-weight: 400;
     }
-    
 
 footer {
     font-size: 20px;
@@ -125,10 +133,11 @@ video {
     main {
         margin: 20px 5px;
     }
-    .photo {
-        width: 250px;
+    .photo2 {
+        width: 250px; 
+        height: 150px; 
     }
+    
 }
-
 
 
