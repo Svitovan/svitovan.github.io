@@ -1,143 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Special+Elite&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-    --index: calc(1vw + 1vh);
+  --index: calc(1vw + 1vh);
 }
-
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:visited {
-    color: #0066cc;
-    text-decoration: none;
+  color: #0066cc;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 body {
-    padding: 25px;
-    background-color: #fff;
-    /* font-family: 'Special Elite', cursive; */
-    /* font-family: 'Josefin Slab', serif; */
-    /* font-family: 'Nunito', sans-serif; */
-    /* font-family: 'Marmelad', sans-serif;	*/
-    /* font-family: 'Quicksand', sans-serif; */
-    font-family: 'Playpen Sans', cursive;
-    font-size: 20px;
-    font-weight: 300;
-    /* font-size: calc(var(--index) * .9); */
-    
+  padding: 25px;
+  background-color: #fff;
+  /* font-family: 'Special Elite', cursive; */
+  /* font-family: 'Josefin Slab', serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Marmelad', sans-serif;	*/
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: "Playpen Sans", cursive;
+  font-size: 20px;
+  font-weight: 300;
+  /* font-size: calc(var(--index) * .9); */
 }
-h1, h2 {
-    font-weight: 700;
-    text-align: center;
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
 }
 h3 {
-    font-weight: 700;
-}   
-strong {
-    font-weight: 600;
+  font-weight: 700;
 }
-    .shell {
-        margin: 0 auto;
-        padding: 25px;
-        position: relative;
-        border-radius: 5px;
-        min-width: 300px;
-        max-width: 900px;
-        background-color: rgb(255, 249, 241);
-        box-shadow: 7px 9px 15px 5px rgba(168, 168, 168, 0.527);
-        animation-name: anime;
-        animation-duration: 3s;
-    }
-    @keyframes anime {
-        0% {left: -1000px; top: 0px; opacity: 0;}
-        100% {left: 0px; top: 0px; opacity: 1;}
-    }
-
-
+strong {
+  font-weight: 600;
+}
+.shell {
+  margin: 0 auto;
+  padding: 25px;
+  position: relative;
+  border-radius: 5px;
+  min-width: 300px;
+  max-width: 900px;
+  background-color: rgb(255, 249, 241);
+  box-shadow: 7px 9px 15px 5px rgba(168, 168, 168, 0.527);
+  animation-name: anime;
+  animation-duration: 3s;
+}
+@keyframes anime {
+  0% {
+    left: -1000px;
+    top: 0px;
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+  }
+}
 
 ul li::marker {
-    /* content: "o"; */
-    color: rgb(49, 49, 49);
-    /* font-size: 17px; */
+  /* content: "o"; */
+  color: rgb(49, 49, 49);
+  /* font-size: 17px; */
 }
 
 ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
 
-    .photo {
-        border-radius: 1%;
-        width: 550px;
-        box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527);
-    }
-    .photo2 {
-        margin: 0 auto;
-        background-size: cover;
-        background-image: url("img/img_25.jpeg");
-        width: 600px; 
-        height: 398px; 
-    }
-    .photo2:hover {
-        background-image: url("img/img_30.jpeg");
-    }
-
+.photo {
+  border-radius: 1%;
+  width: 550px;
+  box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527);
+}
+.photo2 {
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url("img/img_25.jpeg");
+  width: 600px;
+  height: 398px;
+  filter: drop-shadow(5px 5px 10px #313131);
+  animation-name: zoom;
+  animation-duration: 3s;
+}
+.photo2:hover {
+  background-image: url("img/img_30.jpeg");
+}
+@keyframes zoom {
+  0% {
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+  }
+  100% {
+    width: 600px;
+    height: 398px;
+    opacity: 1;
+  }
+}
 main {
-    margin: 50px 25px;
+  margin: 50px 25px;
 }
-    .company {
-        font-weight: 400;
-    }
+.company {
+  font-weight: 400;
+}
 
 footer {
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 video {
-    max-width: 50%;
-    border-radius: 7%;
+  max-width: 50%;
+  border-radius: 7%;
 }
 
 .prompt {
-    font-size: 10px;
-    font-style: italic;
-    color: rgb(69, 119, 121);
+  font-size: 10px;
+  font-style: italic;
+  color: rgb(69, 119, 121);
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        font-size: 18px;
-    }
-    footer {
-        font-size: 16px;
-    }
-    main {
-        margin: 20px 5px;
-    }
-    .photo2 {
-        width: 250px; 
-        height: 150px; 
-    }
-    
+  body {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 16px;
+  }
+  main {
+    margin: 20px 5px;
+  }
+  .photo2 {
+    width: 250px;
+    height: 150px;
+  }
 }
 
-
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateX(300px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
