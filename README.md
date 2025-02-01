@@ -1,1 +1,1 @@
-CV Alex Yanchyk
+CV Alex Jančik
