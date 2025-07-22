@@ -25,7 +25,10 @@ header {
   height: 325px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527);
+  /* box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527); */
+  filter: drop-shadow(1px 2px 5px #313131);
+  animation-name: zoom;
+  animation-duration: 3s;
 }
 .photo2 {
   margin: 0 auto;
@@ -107,6 +110,18 @@ strong {
     opacity: 1;
   }
 }
+@keyframes zoom {
+  0% {
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+  }
+  100% {
+    /* width: 500px;
+    height: 500px; */
+    opacity: 1;
+  }
+}
 
 ul li::marker {
   /* content: "o"; */
@@ -119,18 +134,7 @@ ul {
 }
 
 
-@keyframes zoom {
-  0% {
-    width: 25px;
-    height: 25px;
-    opacity: 0;
-  }
-  100% {
-    width: 600px;
-    height: 398px;
-    opacity: 1;
-  }
-}
+
 main {
   margin: 50px 25px;
 }
