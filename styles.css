@@ -14,7 +14,48 @@
 :root {
   --index: calc(1vw + 1vh);
 }
-
+html {
+  font-size: 18px;
+}
+header {
+  text-align: center;
+}
+.photo {
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527);
+}
+.photo2 {
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url("img/img_25.jpeg");
+  width: 600px;
+  height: 398px;
+  filter: drop-shadow(5px 5px 10px #313131);
+  animation-name: zoom;
+  animation-duration: 3s;
+}
+.photo2:hover {
+  background-image: url("img/img_30.jpeg");
+}
+.icon {
+  width: 30px;
+}
+body {
+  padding: 25px;
+  background-color: #fff;
+  /* font-family: 'Special Elite', cursive; */
+  /* font-family: 'Josefin Slab', serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Marmelad', sans-serif;	*/
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: "Playpen Sans", cursive;
+  font-weight: 300;
+  /* font-size: 16px; */
+  /* font-size: calc(var(--index) * .8); */
+}
 a:link {
   text-decoration: none;
 }
@@ -25,27 +66,19 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
-
-body {
-  padding: 25px;
-  background-color: #fff;
-  /* font-family: 'Special Elite', cursive; */
-  /* font-family: 'Josefin Slab', serif; */
-  /* font-family: 'Nunito', sans-serif; */
-  /* font-family: 'Marmelad', sans-serif;	*/
-  /* font-family: 'Quicksand', sans-serif; */
-  font-family: "Playpen Sans", cursive;
-  font-size: 20px;
-  font-weight: 300;
-  /* font-size: calc(var(--index) * .9); */
+h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
 }
-h1,
 h2 {
   font-weight: 700;
   text-align: center;
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
 }
 h3 {
   font-weight: 700;
+  font-size: clamp(0.5rem, 4vw, 1.1rem);
 }
 strong {
   font-weight: 600;
@@ -85,28 +118,7 @@ ul {
   list-style-type: circle;
 }
 
-header {
-  text-align: center;
-}
 
-.photo {
-  border-radius: 1%;
-  width: 550px;
-  box-shadow: 3px 3px 9px 3px rgba(168, 168, 168, 0.527);
-}
-.photo2 {
-  margin: 0 auto;
-  background-size: cover;
-  background-image: url("img/img_25.jpeg");
-  width: 600px;
-  height: 398px;
-  filter: drop-shadow(5px 5px 10px #313131);
-  animation-name: zoom;
-  animation-duration: 3s;
-}
-.photo2:hover {
-  background-image: url("img/img_30.jpeg");
-}
 @keyframes zoom {
   0% {
     width: 25px;
@@ -127,7 +139,6 @@ main {
 }
 
 footer {
-  font-size: 20px;
   text-align: center;
 }
 
@@ -144,13 +155,18 @@ video {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 18px;
-  }
-  footer {
     font-size: 16px;
   }
   main {
     margin: 20px 5px;
+  }
+  footer {
+    font-size: 16px;
+  }
+
+  .photo {
+    width: 150px;
+    height: 150px;
   }
   .photo2 {
     width: 250px;
