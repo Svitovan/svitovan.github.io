@@ -98,7 +98,7 @@ details > h3 {
   font-size: 14px;
 }
 
- @keyframes anime {
+@keyframes anime {
   0% {
     left: -1000px;
     top: 0px;
