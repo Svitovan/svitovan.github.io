@@ -91,6 +91,12 @@ strong {
   animation-name: anime;
   animation-duration: 3s;
 }
+.details {
+  font-size: 14px;
+  h1, h2, h3 {
+    font-size: 14px;
+  }
+}
 @keyframes anime {
   0% {
     left: -1000px;
