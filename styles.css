@@ -91,10 +91,10 @@ strong {
   animation-name: anime;
   animation-duration: 3s;
 }
-.details {
+details {
   font-size: 14px;
 }
-.details h1, h2, h3, h4 {
+details > h3 {
   font-size: 14px;
 }
 
