@@ -206,17 +206,6 @@ video {
 
 @media screen and (max-width: 600px) {
 
-  ul,
-  ol {
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;
-    /* keeps bullets visible */
-  }
-  li {
-    margin-left: 0;
-  }
-
   body {
     font-size: 14px;
   }
