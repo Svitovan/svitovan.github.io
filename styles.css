@@ -197,7 +197,7 @@ video {
 
 .animate-on-scroll {
   opacity: 0;
-  transform: translateX(-300px);
+  transform: translateX(300px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 .animate-on-scroll.visible {
