@@ -4,11 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 :root {
   --index: calc(1vw + 1vh);
 }
+
+
 
 html {
   font-size: 18px;
@@ -192,15 +195,28 @@ video {
 }
 
 .summary {
-    text-align: justify;
-    text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 .key-resp {
-    text-align: justify;
-    text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @media screen and (max-width: 600px) {
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    /* keeps bullets visible */
+  }
+  li {
+    margin-left: 0;
+  }
+
   body {
     font-size: 14px;
   }
