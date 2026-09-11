@@ -98,8 +98,8 @@ Frontend Developer with **6+ years of commercial experience** delivering perform
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Svitovan&show_icons=true&theme=radical&hide_border=true&bg_color=120f10&title_color=e54258&text_color=f5eded&icon_color=e54258" alt="Aleš Janáček's GitHub stats" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Svitovan&layout=compact&theme=radical&hide_border=true&bg_color=120f10&title_color=e54258&text_color=f5eded" alt="Top Languages" height="155" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Svitovan&show_icons=true&theme=radical&hide_border=true&bg_color=120f10&title_color=e54258&text_color=f5eded&icon_color=e54258" alt="Aleš Janáček's GitHub stats" height="155" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Svitovan&layout=compact&theme=radical&hide_border=true&bg_color=120f10&title_color=e54258&text_color=f5eded" alt="Top Languages" height="155" />
 </div>
 
 ---
