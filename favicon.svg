@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d0d19" />
+      <stop offset="50%" stop-color="#99162c" />
+      <stop offset="100%" stop-color="#d24956" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)" />
+  <!-- Elegant geometric monogram "A" -->
+  <path d="M32 14 L46 48 L39.5 48 L36 39.5 L28 39.5 L24.5 48 L18 48 Z M32 23 L29.5 34.5 L34.5 34.5 Z" fill="#ffffff" filter="url(#shadow)" />
+  <circle cx="32" cy="14" r="2" fill="#f5b6bf" />
+</svg>
