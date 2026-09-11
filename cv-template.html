@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CV — Aleš Janáček</title>
+<style>
+  @page {
+    size: A4;
+    margin: 14mm 16mm 14mm 16mm;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.42;
+    color: #1a1a1a;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header */
+  .cv-header {
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding-bottom: 10pt;
+    margin-bottom: 12pt;
+  }
+
+  .cv-header h1 {
+    font-size: 22pt;
+    font-weight: 800;
+    margin: 0 0 3pt;
+    letter-spacing: -0.02em;
+    color: #111;
+    text-transform: uppercase;
+  }
+
+  .cv-header .headline {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 6pt;
+  }
+
+  .contact-bar {
+    font-size: 8.8pt;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4pt 12pt;
+  }
+
+  .contact-bar a {
+    color: #111;
+    text-decoration: none;
+  }
+
+  /* Section Styles */
+  .section {
+    margin-bottom: 11pt;
+    break-inside: auto;
+  }
+
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #111;
+    border-bottom: 1px solid #333;
+    padding-bottom: 2pt;
+    margin: 0 0 6pt;
+  }
+
+  /* Summary */
+  .summary-text {
+    margin: 0;
+    text-align: justify;
+  }
+
+  /* Skills */
+  .skills-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .skills-table td {
+    padding: 2pt 0;
+    vertical-align: top;
+    font-size: 9.2pt;
+  }
+
+  .skills-table td.cat {
+    width: 22%;
+    font-weight: 700;
+    color: #222;
+  }
+
+  .skills-table td.val {
+    width: 78%;
+    color: #333;
+  }
+
+  /* Experience & Jobs */
+  .job-block {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2pt;
+  }
+
+  .job-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #111;
+  }
+
+  .job-company {
+    font-weight: 600;
+    color: #333;
+  }
+
+  .job-meta {
+    font-size: 8.8pt;
+    font-weight: 500;
+    color: #555;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .job-bullets {
+    margin: 3pt 0 0;
+    padding-left: 14pt;
+  }
+
+  .job-bullets li {
+    margin-bottom: 2.5pt;
+    text-align: justify;
+  }
+
+  .job-tech {
+    font-size: 8.5pt;
+    color: #444;
+    margin-top: 3pt;
+  }
+
+  .job-tech strong {
+    color: #222;
+  }
+
+  /* Projects */
+  .project-block {
+    margin-bottom: 7pt;
+    break-inside: avoid;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .project-title {
+    font-size: 9.8pt;
+    font-weight: 700;
+    color: #111;
+  }
+
+  .project-link {
+    font-size: 8.6pt;
+    color: #444;
+    text-decoration: none;
+  }
+
+  .project-desc {
+    margin: 2pt 0 0;
+    font-size: 9.2pt;
+    text-align: justify;
+  }
+
+  /* Education */
+  .edu-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4pt;
+    break-inside: avoid;
+  }
+
+  .edu-title {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #111;
+  }
+
+  .edu-sub {
+    font-size: 9pt;
+    color: #444;
+  }
+
+  .edu-meta {
+    font-size: 8.8pt;
+    color: #555;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* Two Column Details */
+  .two-col {
+    display: flex;
+    gap: 16pt;
+  }
+
+  .two-col > div {
+    flex: 1;
+  }
+
+  .compact-list {
+    margin: 0;
+    padding-left: 12pt;
+    font-size: 8.8pt;
+  }
+
+  .compact-list li {
+    margin-bottom: 2pt;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="cv-header">
+    <h1>Aleš Janáček</h1>
+    <div class="headline">Frontend Developer · JavaScript · Astro · Enterprise Web Solutions</div>
+    <div class="contact-bar">
+      <span>Prague, Czech Republic</span>
+      <span>•</span>
+      <span>+420 776 677 173</span>
+      <span>•</span>
+      <span><a href="mailto:jana4ek@gmail.com">jana4ek@gmail.com</a></span>
+      <span>•</span>
+      <span><a href="https://www.linkedin.com/in/ajanacek/">linkedin.com/in/ajanacek</a></span>
+      <span>•</span>
+      <span><a href="https://github.com/Svitovan">github.com/Svitovan</a></span>
+      <span>•</span>
+      <span><a href="https://svitovan.github.io">svitovan.github.io</a></span>
+    </div>
+  </header>
+
+  <!-- Professional Summary -->
+  <section class="section">
+    <div class="section-title">Professional Summary</div>
+    <p class="summary-text">
+      Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites, and business automation solutions. Strong practical expertise in JavaScript (ES6+), Astro, HTML5, CSS3, Docker, SQL, and Git. Led the full modernization and cloud migration of corporate portals to Microsoft Azure, containerized platforms on dedicated Linux servers within secured DMZ perimeters, and delivered SharePoint-based Global Inventory systems used across 12 international offices. Currently expanding skills into modern React and TypeScript. Actively applying AI-assisted development workflows (LLMs, AI agents) to streamline research, prototyping, automation, and engineering.
+    </p>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td class="cat">Frontend:</td>
+        <td class="val">JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery</td>
+      </tr>
+      <tr>
+        <td class="cat">Expanding / Learning:</td>
+        <td class="val"><strong>React, TypeScript</strong></td>
+      </tr>
+      <tr>
+        <td class="cat">Backend &amp; Data:</td>
+        <td class="val">REST APIs, SQL, SharePoint, Power Automate</td>
+      </tr>
+      <tr>
+        <td class="cat">DevOps &amp; Cloud:</td>
+        <td class="val">Docker, Linux, Bash, Git, Microsoft Azure (Azure Repos, CI/CD), PowerShell</td>
+      </tr>
+      <tr>
+        <td class="cat">Design &amp; Other:</td>
+        <td class="val">Photoshop, Lightroom, DaVinci Resolve, 3ds Max, ArchiCAD, SketchUp, Kentico, FlutterFlow</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Work Experience -->
+  <section class="section">
+    <div class="section-title">Work Experience</div>
+
+    <article class="job-block">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Frontend Developer</span> · <span class="job-company">Euro-Center Holding SE</span>
+        </div>
+        <div class="job-meta">2020 – Present | Prague, Czech Republic</div>
+      </div>
+      <ul class="job-bullets">
+        <li>Leading the complete technical modernization and migration of the corporate website (<strong>euro-center.com</strong>) to the modern <strong>Astro</strong> framework, fully deployed and managed in the <strong>Microsoft Azure</strong> ecosystem (Azure Repos, CI/CD), significantly improving load speeds, Core Web Vitals, and maintainability.</li>
+        <li>Containerized the corporate WordPress platform using <strong>Docker</strong> on a dedicated Linux server within a secured <strong>DMZ</strong> environment; executed seamless server migrations and supported corporate web infrastructure with 99.9% uptime.</li>
+        <li>Developed and deployed a SharePoint-based Global Inventory system adopted by operational teams across 12 international offices.</li>
+        <li>Built interactive internal interfaces with JavaScript, HTML, and CSS for corporate employees managing business data and operational reporting.</li>
+        <li>Automated onboarding, administrative forms, and business workflows using Power Automate and SharePoint integration.</li>
+        <li>Administered Azure environments and executed SQL queries for business data operations.</li>
+      </ul>
+      <div class="job-tech">
+        <strong>Tech:</strong> JavaScript, Astro, Microsoft Azure (Azure Repos), Docker, Linux (DMZ), HTML5, CSS3, SharePoint, Power Automate, SQL, WordPress, Git
+      </div>
+    </article>
+
+    <article class="job-block">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Technical Support Specialist (1C)</span> · <span class="job-company">Ista Corporation s.r.o.</span>
+        </div>
+        <div class="job-meta">2018 – 2020 | Prague, Czech Republic</div>
+      </div>
+      <ul class="job-bullets">
+        <li>Provided technical support for 1C enterprise business software, investigated complex user issues, and ensured continuous system reliability.</li>
+      </ul>
+    </article>
+
+    <article class="job-block">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Junior Frontend Developer</span> · <span class="job-company">HSI, spol. s r.o.</span>
+        </div>
+        <div class="job-meta">2017 – 2018 | Prague, Czech Republic</div>
+      </div>
+      <ul class="job-bullets">
+        <li>Supported web application development using JavaScript, HTML, CSS, and SQL; implemented user interface components and database query tasks.</li>
+      </ul>
+    </article>
+
+    <article class="job-block">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Earlier Professional Experience</span>
+        </div>
+        <div class="job-meta">2008 – 2017</div>
+      </div>
+      <ul class="job-bullets">
+        <li>Technical Helpdesk at Apple · Sales Manager at DiViPiX s.r.o. · Expert &amp; Chief Executive at Auction House “Kleynod” · Chief Specialist at Kyiv City State Administration (UEFA Euro 2012 staging).</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- Selected Web Projects -->
+  <section class="section">
+    <div class="section-title">Selected Web Projects</div>
+
+    <div class="project-block">
+      <div class="project-header">
+        <span class="project-title">Euro-Center — Corporate Cloud Modernization</span>
+        <a class="project-link" href="https://www.euro-center.com">euro-center.com ↗</a>
+      </div>
+      <p class="project-desc">
+        Re-architected corporate platform from a dedicated Dockerized WordPress setup to a cloud-native <strong>Astro</strong> architecture hosted in <strong>Microsoft Azure</strong> (Azure Repos). Greatly improved performance, security, and deployment agility.
+        <br><em>Tech: Astro, Microsoft Azure, Docker, JavaScript, WordPress.</em>
+      </p>
+    </div>
+
+    <div class="project-block">
+      <div class="project-header">
+        <span class="project-title">Achatina — Interactive Web Platform</span>
+        <a class="project-link" href="https://www.achatina.com.ua">achatina.com.ua ↗</a>
+      </div>
+      <p class="project-desc">
+        Engineered interactive frontend features, responsive UI elements, navigation, media galleries, and custom form interactions.
+        <br><em>Tech: JavaScript, jQuery, HTML5, CSS3, WordPress.</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-block">
+      <div>
+        <div class="edu-title">Czech Technical University in Prague</div>
+        <div class="edu-sub">Faculty of Nuclear Sciences and Physical Engineering · PhD coursework in Mathematical Engineering</div>
+      </div>
+      <div class="edu-meta">2009 – 2011</div>
+    </div>
+    <div class="edu-block">
+      <div>
+        <div class="edu-title">National Technical University of Ukraine “Igor Sikorsky KPI”</div>
+        <div class="edu-sub">Faculty of Chemical Engineering · Master’s degree in Technology of Polymers Reprocessing</div>
+      </div>
+      <div class="edu-meta">2003 – 2009</div>
+    </div>
+  </section>
+
+  <!-- Additional Info & Languages -->
+  <section class="section">
+    <div class="two-col">
+      <div>
+        <div class="section-title">Languages</div>
+        <p style="margin: 0; font-size: 9.2pt;">Czech, English, Ukrainian, Russian</p>
+      </div>
+      <div>
+        <div class="section-title">Certifications &amp; Training</div>
+        <ul class="compact-list">
+          <li>Diploma nostrified at University of Chemistry and Technology, Prague</li>
+          <li>React Akademie — Inventi, 2018</li>
+          <li>.NET Hatchery (UML, SQL, C#, .NET, Design Patterns, Git) — Unicorn a.s., 2017</li>
+          <li>JavaScript Advanced &amp; Essential — CyberBionic Systematics, 2015</li>
+          <li>Driving License: Category B</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
