@@ -37,7 +37,11 @@ const requiredAssets = [
     'red-176.webp',
     'red-352.jpg',
     'CV-Ales-Janacek.pdf',
-    'CV-Ales-Janacek.md'
+    'CV-Ales-Janacek.md',
+    'assets/euro-center-preview.webp',
+    'assets/euro-center-preview.jpg',
+    'assets/achatina-preview.webp',
+    'assets/achatina-preview.jpg'
 ];
 
 let missing = 0;

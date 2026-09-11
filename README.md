@@ -30,6 +30,27 @@ Personal website and curriculum vitae of **Aleš Janáček**, Frontend Developer
 - **Specialized E-Commerce Platform:** Engineered a responsive B2C e-shop ([Achatina](https://www.achatina.com.ua)) for an exotic pet breeding business, featuring dynamic species catalog filtering, rich media lightbox galleries, and custom order inquiry workflows.
 - **Executive Leadership Foundation:** Prior background as Chief Executive at Auction House Kleynod and municipal project coordinator at KCCA for UEFA Euro 2012 staging, bringing mature business ownership and cross-functional leadership.
 
+## 🖥️ Featured Project Showcases
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong><a href="https://www.euro-center.com">Euro-Center Holding SE</a></strong><br />
+      <sub>Corporate Cloud Modernization · Astro · Azure</sub><br /><br />
+      <a href="https://www.euro-center.com">
+        <img src="assets/euro-center-preview.webp" alt="Euro-Center Preview" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <strong><a href="https://www.achatina.com.ua">Achatina E-Commerce Store</a></strong><br />
+      <sub>Specialized B2C E-Commerce Platform · Catalog &amp; Cart</sub><br /><br />
+      <a href="https://www.achatina.com.ua">
+        <img src="assets/achatina-preview.webp" alt="Achatina Preview" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## ⚡ Engineering & Architecture Features
 - **Responsive WebP Image Delivery:** Hero avatar served in high-performance WebP (`red-176.webp`, `red-352.webp` with 1x/2x `srcset`) alongside optimized JPEG fallbacks, with `<link rel="preload">` and `fetchpriority="high"` for instantaneous LCP.
 - **Dark Mode Engine:** Seamless manual theme switcher with SVG Sun/Moon animations, system preference auto-detection (`prefers-color-scheme`), `localStorage` persistence, and zero FOUC early boot script.

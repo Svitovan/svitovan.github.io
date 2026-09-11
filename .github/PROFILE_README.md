@@ -74,6 +74,25 @@ Frontend Developer with **6+ years of commercial experience** delivering perform
   - [**ai-summarize**](https://github.com/Svitovan/ai-summarize) — AI-assisted text summarization interface.
   - [**React-Movies-App**](https://github.com/Svitovan/React-Movies-App) — Movie search and browsing web application.
 
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong><a href="https://www.euro-center.com">Euro-Center Holding SE</a></strong><br />
+      <sub>Corporate Cloud Modernization · Astro · Azure · Docker</sub><br /><br />
+      <a href="https://www.euro-center.com">
+        <img src="https://raw.githubusercontent.com/Svitovan/svitovan.github.io/master/assets/euro-center-preview.webp" alt="Euro-Center Platform Preview" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <strong><a href="https://www.achatina.com.ua">Achatina E-Commerce Store</a></strong><br />
+      <sub>Specialized B2C E-Commerce · Catalog &amp; Cart</sub><br /><br />
+      <a href="https://www.achatina.com.ua">
+        <img src="https://raw.githubusercontent.com/Svitovan/svitovan.github.io/master/assets/achatina-preview.webp" alt="Achatina Store Preview" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ### 📊 GitHub Activity & Stats
