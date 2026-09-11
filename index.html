@@ -41,23 +41,152 @@
         })();
     </script>
 
-    <!-- Schema.org Person JSON-LD for Search Engines -->
+    <!-- Schema.org JSON-LD Structured Data for Search Engines & AI Crawlers -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Aleš Janáček",
-        "jobTitle": "Frontend Developer",
-        "url": "https://svitovan.github.io",
-        "sameAs": [
-            "https://www.linkedin.com/in/ajanacek/",
-            "https://github.com/Svitovan"
-        ],
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Prague",
-            "addressCountry": "CZ"
-        }
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://svitovan.github.io/#website",
+                "url": "https://svitovan.github.io",
+                "name": "Aleš Janáček — Frontend Developer Portfolio & CV",
+                "description": "Curriculum Vitae and portfolio of Aleš Janáček, Frontend Developer based in Prague specializing in JavaScript, Astro, web automation, Docker, and Microsoft Azure.",
+                "inLanguage": "en-US",
+                "publisher": {
+                    "@id": "https://svitovan.github.io/#person"
+                }
+            },
+            {
+                "@type": "ProfilePage",
+                "@id": "https://svitovan.github.io/#profilepage",
+                "url": "https://svitovan.github.io",
+                "name": "Aleš Janáček — Frontend Developer",
+                "isPartOf": {
+                    "@id": "https://svitovan.github.io/#website"
+                },
+                "about": {
+                    "@id": "https://svitovan.github.io/#person"
+                },
+                "mainEntity": {
+                    "@id": "https://svitovan.github.io/#person"
+                },
+                "primaryImageOfPage": {
+                    "@id": "https://svitovan.github.io/#primaryimage"
+                },
+                "inLanguage": "en-US"
+            },
+            {
+                "@type": "ImageObject",
+                "@id": "https://svitovan.github.io/#primaryimage",
+                "url": "https://svitovan.github.io/red.jpg",
+                "contentUrl": "https://svitovan.github.io/red.jpg",
+                "caption": "Aleš Janáček"
+            },
+            {
+                "@type": "Person",
+                "@id": "https://svitovan.github.io/#person",
+                "name": "Aleš Janáček",
+                "alternateName": "Alesh Yanachek",
+                "jobTitle": "Frontend Developer",
+                "image": {
+                    "@id": "https://svitovan.github.io/#primaryimage"
+                },
+                "description": "Frontend Developer with 6+ years of commercial experience specializing in JavaScript, Astro, web automation, Docker in DMZ perimeters, and Microsoft Azure.",
+                "url": "https://svitovan.github.io",
+                "telephone": "+420 776 677 173",
+                "email": "mailto:jana4ek@gmail.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Prague",
+                    "addressCountry": "CZ"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/ajanacek/",
+                    "https://github.com/Svitovan",
+                    "https://www.flickr.com/photos/yanchyk/albums/72157648694393397",
+                    "https://soundcloud.com/svitovan/tracks"
+                ],
+                "knowsLanguage": ["cs", "en", "uk", "ru"],
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Euro-Center Holding SE",
+                    "url": "https://www.euro-center.com"
+                },
+                "hasOccupation": {
+                    "@type": "Occupation",
+                    "name": "Frontend Developer",
+                    "occupationalCategory": "15-1254.00",
+                    "skills": "JavaScript, Astro, React, TypeScript, HTML5, CSS3, Docker, Microsoft Azure, Git, CI/CD, Web Automation, SharePoint, Power Automate, SQL, WordPress"
+                },
+                "alumniOf": [
+                    {
+                        "@type": "CollegeOrUniversity",
+                        "name": "Czech Technical University in Prague (ČVUT)",
+                        "department": "Faculty of Nuclear Sciences and Physical Engineering"
+                    },
+                    {
+                        "@type": "CollegeOrUniversity",
+                        "name": "National Technical University of Ukraine “KPI”",
+                        "department": "Faculty of Chemical Engineering"
+                    }
+                ],
+                "knowsAbout": [
+                    "JavaScript",
+                    "Astro",
+                    "React",
+                    "TypeScript",
+                    "HTML5",
+                    "CSS3",
+                    "Docker",
+                    "Microsoft Azure",
+                    "Git",
+                    "CI/CD",
+                    "Web Automation",
+                    "Core Web Vitals",
+                    "SharePoint",
+                    "Power Automate",
+                    "SQL",
+                    "WordPress",
+                    "Linux"
+                ]
+            },
+            {
+                "@type": "CreativeWork",
+                "@id": "https://svitovan.github.io/#project-eurocenter",
+                "name": "Euro-Center Corporate Platform Modernization",
+                "headline": "Full modernization and Astro migration in Microsoft Azure cloud",
+                "url": "https://www.euro-center.com",
+                "creator": {
+                    "@id": "https://svitovan.github.io/#person"
+                },
+                "keywords": [
+                    "Astro",
+                    "JavaScript",
+                    "Microsoft Azure",
+                    "CI/CD",
+                    "Core Web Vitals",
+                    "Docker"
+                ]
+            },
+            {
+                "@type": "CreativeWork",
+                "@id": "https://svitovan.github.io/#project-achatina",
+                "name": "Achatina Interactive Portal",
+                "headline": "Interactive educational web platform with multimedia galleries",
+                "url": "https://www.achatina.com.ua",
+                "creator": {
+                    "@id": "https://svitovan.github.io/#person"
+                },
+                "keywords": [
+                    "JavaScript",
+                    "jQuery",
+                    "WordPress",
+                    "HTML5",
+                    "CSS3"
+                ]
+            }
+        ]
     }
     </script>
 
