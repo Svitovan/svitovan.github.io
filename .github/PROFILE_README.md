@@ -68,7 +68,7 @@ Frontend Developer with **6+ years of commercial experience** delivering perform
 
 - 🌐 [**svitovan.github.io**](https://github.com/Svitovan/svitovan.github.io) — Personal interactive portfolio & ATS-friendly CV featuring Dark Mode, responsive WebP optimization, automated CI/CD pipeline, and Schema.org linked data graph.
 - 🏢 [**Euro-Center Holding SE**](https://www.euro-center.com) — Corporate platform modernization from legacy monolithic architecture to cloud-native Astro in Azure.
-- 🐌 [**Achatina Web Portal**](https://www.achatina.com.ua) — Educational interactive web portal with custom multimedia galleries and content engine.
+- 🐌 [**Achatina E-Commerce Store**](https://www.achatina.com.ua) — Specialized B2C online shop with dynamic species catalog, category filtering, and mobile-optimized ordering workflows.
 - ⚛️ [**React & Interactive Experiments**](https://github.com/Svitovan?tab=repositories&q=react):
   - [**weather-app-react**](https://github.com/Svitovan/weather-app-react) — Real-time weather dashboard with external API integration.
   - [**ai-summarize**](https://github.com/Svitovan/ai-summarize) — AI-assisted text summarization interface.

@@ -53,9 +53,9 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 - Re-architected and modernized the corporate web platform from a dedicated Dockerized WordPress setup to a cloud-native Astro solution hosted in Microsoft Azure (Azure Repos). Greatly improved performance, security, and maintainability.
 - **Website:** [www.euro-center.com](https://www.euro-center.com)
 
-### Achatina — Interactive Website
-- **Tech:** JavaScript, jQuery, HTML5, CSS3, WordPress
-- Developed interactive functionality and responsive UI elements; implemented navigation, media galleries, and form handling.
+### Achatina — Specialized E-Commerce Platform
+- **Tech:** JavaScript, E-Commerce UX, WordPress, HTML5, CSS3, Filtering
+- Engineered a responsive B2C e-commerce platform for an exotic pet and terrarium supply business. Built dynamic product catalog navigation, species category filtering, rich media lightbox galleries, and custom order inquiry forms with client-side validation.
 - **Website:** [www.achatina.com.ua](https://www.achatina.com.ua)
 
 ## Education
