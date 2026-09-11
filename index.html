@@ -29,6 +29,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
+    <!-- Preload Hero Avatar for Instant LCP -->
+    <link rel="preload" as="image" href="red-352.webp" type="image/webp" />
+
     <!-- Early Theme Init (Prevent Flash of Unstyled Theme) -->
     <script>
         (function() {
@@ -251,7 +254,11 @@
 <body>
     <header class="profile-header">
         <div class="container profile">
-            <img class="profile-image" src="red.jpg" alt="Portrait of Aleš Janáček" width="176" height="176" />
+            <picture class="profile-picture">
+                <source type="image/webp" srcset="red-176.webp 1x, red-352.webp 2x" />
+                <source type="image/jpeg" srcset="red-352.jpg 2x, red.jpg 1x" />
+                <img class="profile-image" src="red-352.jpg" alt="Portrait of Aleš Janáček" width="176" height="176" fetchpriority="high" decoding="async" />
+            </picture>
             <p class="profile-kicker">Curriculum Vitae</p>
             <h1>Aleš Janáček</h1>
             <p class="profile-role">

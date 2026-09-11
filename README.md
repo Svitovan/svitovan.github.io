@@ -1,33 +1,40 @@
 # Aleš Janáček — Personal Portfolio & CV
 
 [![Live Demo](https://img.shields.io/badge/Live_Site-svitovan.github.io-a7192e?style=for-the-badge&logo=githubpages&logoColor=white)](https://svitovan.github.io)
+[![Download CV](https://img.shields.io/badge/Download_CV-PDF-741122?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://svitovan.github.io/CV-Ales-Janacek.pdf)
+[![CI](https://img.shields.io/github/actions/workflow/status/Svitovan/svitovan.github.io/ci.yml?branch=master&style=for-the-badge&label=CI&logo=githubactions&logoColor=white)](https://github.com/Svitovan/svitovan.github.io/actions)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aleš_Janáček-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajanacek/)
 [![Location](https://img.shields.io/badge/Location-Prague,_Czech_Republic-6c6262?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Prague)
 
-Personal website and curriculum vitae of **Aleš Janáček**, Frontend Developer with 6+ years of commercial experience in web applications, enterprise business automation, modern JavaScript, and the **Astro** framework.
+Personal website and curriculum vitae of **Aleš Janáček**, Frontend Developer with 6+ years of commercial experience in modern web applications, enterprise business automation, modern JavaScript, and the **Astro** framework. Based in Prague, Czech Republic.
 
 ---
 
-## 🚀 Live Website
-Visit the live portfolio at **[svitovan.github.io](https://svitovan.github.io)**.
+## 🚀 Live Website & Resume
+- **Interactive Portfolio & CV:** **[svitovan.github.io](https://svitovan.github.io)**
+- **Direct Download (ATS-Friendly PDF):** **[CV-Ales-Janacek.pdf](https://svitovan.github.io/CV-Ales-Janacek.pdf)**
+- **Markdown Version:** **[CV-Ales-Janacek.md](CV-Ales-Janacek.md)**
 
 ## 🛠️ Core Competencies & Tech Stack
-- **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
-- **Currently Learning / Expanding:** React, TypeScript
+- **Frontend Core:** Modern JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, WordPress
+- **Active Learning / Expanding:** React, TypeScript
 - **Backend & Integrations:** REST APIs, SQL, SharePoint, Power Automate
-- **DevOps & Tools:** Git, Docker, Linux, Bash, Azure, PowerShell
-- **AI Workflows:** LLM-assisted development, AI agents, prototyping & workflow automation
+- **DevOps, Cloud & Infrastructure:** Microsoft Azure (Azure Repos, CI/CD), Docker (secured DMZ perimeter), Linux, Bash, Git, PowerShell
+- **AI-Assisted Engineering:** LLM workflows, automated scripting, agentic prototyping
 
 ## 🌟 Key Highlights
-- **Corporate Cloud Modernization:** Leading technical redesign & migration of [Euro-Center Holding SE](https://www.euro-center.com) from WordPress to cloud-native **Astro** in **Microsoft Azure** (Azure Repos), boosting Core Web Vitals, security, and developer velocity.
+- **Corporate Cloud Modernization:** Leading technical redesign & migration of [Euro-Center Holding SE](https://www.euro-center.com) to cloud-native **Astro** within **Microsoft Azure** (Azure Repos, CI/CD), boosting Core Web Vitals, security, and developer velocity.
 - **Docker & Infrastructure:** Containerized legacy corporate WordPress platform with **Docker** on a dedicated Linux server within a secured **DMZ** environment, ensuring 99.9% uptime and smooth server migrations.
 - **Enterprise Solutions:** Developed a SharePoint-based Global Inventory System adopted across 12 international offices.
 - **Workflow Automation:** Automated core business and onboarding workflows via Power Automate and custom interfaces.
+- **Executive Leadership Foundation:** Prior background as Chief Executive at Auction House Kleynod and municipal project coordinator at KCCA for UEFA Euro 2012 staging, bringing mature business ownership and cross-functional leadership.
 
-## 📄 Repository Features
-- **Semantic HTML5 & Modern Vanilla CSS:** High-performance, zero-dependency layout with fluid typography and CSS custom properties.
-- **Print-Optimized (`@media print`):** Formatted for clean, ink-friendly export to PDF directly via `Ctrl+P`.
-- **Accessible & Mobile-Responsive:** Fluid grid and flexbox structure, interactive contact actions, and custom SVG assets.
+## ⚡ Engineering & Architecture Features
+- **Responsive WebP Image Delivery:** Hero avatar served in high-performance WebP (`red-176.webp`, `red-352.webp` with 1x/2x `srcset`) alongside optimized JPEG fallbacks, with `<link rel="preload">` and `fetchpriority="high"` for instantaneous LCP.
+- **Dark Mode Engine:** Seamless manual theme switcher with SVG Sun/Moon animations, system preference auto-detection (`prefers-color-scheme`), `localStorage` persistence, and zero FOUC early boot script.
+- **Interactive macOS-Style Browser Mockups:** Native CSS project previews showcasing live corporate metrics and performance pills.
+- **Linked Data Graph (Schema.org JSON-LD):** Interconnected semantic entities (`WebSite`, `ProfilePage`, `ImageObject`, `Person`, `Occupation`, `alumniOf`, `CreativeWork`) conforming to Google Search Central standards.
+- **Automated CI/CD Quality Gate:** GitHub Actions workflow validating schema integrity, asset availability, and link health on every push.
 
 ## 📬 Contact
 - **Email:** [jana4ek@gmail.com](mailto:jana4ek@gmail.com)

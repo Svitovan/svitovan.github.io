@@ -126,11 +126,16 @@ button:focus-visible {
   z-index: 1;
 }
 
+.profile-picture {
+  display: inline-block;
+  margin: 0 auto 1.75rem;
+}
+
 .profile-image {
   display: block;
   width: 176px;
   height: 176px;
-  margin: 0 auto 1.75rem;
+  margin: 0 auto;
   border: 6px solid rgba(255, 255, 255, 0.95);
   border-radius: 50%;
   box-shadow: 0 1rem 2.5rem rgba(25, 0, 6, 0.35);
@@ -139,6 +144,7 @@ button:focus-visible {
   transition: transform 0.3s ease;
 }
 
+.profile-picture:hover .profile-image,
 .profile-image:hover {
   transform: scale(1.02);
 }
