@@ -39,12 +39,12 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 *2017–2018 | Prague, Czech Republic*
 - Supported web application development using JavaScript, HTML, CSS, and SQL; worked on UI implementation and database-related tasks.
 
-### Earlier Experience (2008–2017)
-- **Technical helpdesk**, Apple
-- **Sales-Manager**, DiViPiX s.r.o.
-- **Expert**, Auction House “Kleynod”
-- **Chief Specialist**, Kyiv city state administration, Main department of UEFA Euro 2012 preparations and staging
-- **Chief Executive**, Auction House “Kleynod”
+### Earlier Leadership & Operational Experience (2008–2017)
+*Executive, Municipal & Technical Roles*
+- Transitioned into software engineering with a proven background in executive leadership and municipal operations, providing strong business acumen, high accountability, and cross-functional communication skills:
+  - **Chief Executive & Expert**, Auction House “Kleynod” — General business operations, organizational leadership, auction management, and client strategy.
+  - **Chief Specialist**, Kyiv City State Administration — Project operations and inter-departmental coordination for UEFA Euro 2012 preparations and staging.
+  - **Sales Manager & Technical Helpdesk**, DiViPiX s.r.o. / Apple — Client relations, hardware/software troubleshooting, and technical support.
 
 ## Selected Web Projects
 
