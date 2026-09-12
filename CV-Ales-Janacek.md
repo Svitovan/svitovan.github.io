@@ -23,13 +23,14 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 
 ### Frontend Developer | Euro-Center Holding SE
 *2020–Present | Prague, Czech Republic*
-- Leading the complete technical modernization and migration of the corporate website ([euro-center.com](https://www.euro-center.com)) to the modern **Astro** framework, fully deployed and managed within the **Microsoft Azure** ecosystem (Azure Repos, CI/CD), significantly improving load performance, Core Web Vitals, and maintainability.
+- Migrated the corporate website ([euro-center.com](https://www.euro-center.com)) to **Astro**, with source control in **Azure Repos** and automated deployment through **Azure Pipelines** to **Azure Static Web Apps**.
+- Achieved desktop PageSpeed Insights scores of **98 Performance**, **97 Accessibility**, **96 Best Practices**, and **100 SEO** for the new Astro website.
 - Containerized the corporate WordPress platform using **Docker** on a dedicated Linux server in a secured **DMZ** environment; executed seamless server migrations and maintained corporate web infrastructure with 99.9% uptime.
 - Developed and deployed a SharePoint-based Global Inventory system, adopted by teams across 12 international offices.
 - Built interactive internal user interfaces with JavaScript, HTML, and CSS for employees working with business data and reporting.
 - Automated employee onboarding, administrative forms, and operational workflows using Power Automate and SharePoint.
 - Administered Azure environments and executed SQL queries for business data operations.
-- **Tech:** JavaScript, Astro, Azure (Azure Repos), Docker, Linux, HTML5, CSS3, SharePoint, Power Automate, SQL, WordPress, Git
+- **Tech:** JavaScript, Astro, Azure Repos, Azure Pipelines, Azure Static Web Apps, Docker, Linux, HTML5, CSS3, SharePoint, Power Automate, SQL, WordPress, Git
 
 ### Technical Support Specialist (1C) | Ista Corporation s.r.o.
 *2018–2020 | Prague, Czech Republic*
@@ -49,8 +50,8 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 ## Selected Web Projects
 
 ### Euro-Center — Corporate Cloud Modernization
-- **Tech:** Astro, Microsoft Azure (Azure Repos), Docker, JavaScript, WordPress
-- Re-architected and modernized the corporate web platform from a dedicated Dockerized WordPress setup to a cloud-native Astro solution hosted in Microsoft Azure (Azure Repos). Greatly improved performance, security, and maintainability.
+- **Tech:** Astro, Azure Repos, Azure Pipelines, Azure Static Web Apps, Docker, JavaScript, WordPress
+- Re-architected the corporate web platform from a dedicated Dockerized WordPress setup to an Astro website deployed automatically through Azure Pipelines to Azure Static Web Apps, improving performance, security, and maintainability.
 - **Website:** [www.euro-center.com](https://www.euro-center.com)
 
 ### Achatina — Specialized E-Commerce Platform
@@ -62,14 +63,17 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 
 ### Czech Technical University in Prague
 *Faculty of Nuclear Sciences and Physical Engineering*
-- PhD coursework in Mathematical Engineering, 2009–2011
+- PhD studies in Mathematical Engineering, 2009–2011
 
 ### National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
 *Faculty of Chemical Engineering*
-- Master’s degree in Technology of Polymers Reprocessing, 2003–2009
+- Master’s Degree in Polymer Processing Technology, 2003–2009
 
 ## Languages
-- Czech, English, Ukrainian, Russian
+- Czech — Fluent / Full professional proficiency (C1)
+- English — Professional working proficiency (C1)
+- Ukrainian — Native
+- Russian — Native
 
 ## Additional Information
 - Diploma nostrified at the University of Chemistry and Technology, Prague

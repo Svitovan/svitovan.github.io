@@ -19,11 +19,11 @@ Personal website and curriculum vitae of **Aleš Janáček**, Frontend Developer
 - **Frontend Core:** Modern JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, WordPress
 - **Active Learning / Expanding:** React, TypeScript
 - **Backend & Integrations:** REST APIs, SQL, SharePoint, Power Automate
-- **DevOps, Cloud & Infrastructure:** Microsoft Azure (Azure Repos, CI/CD), Docker (secured DMZ perimeter), Linux, Bash, Git, PowerShell
+- **DevOps, Cloud & Infrastructure:** Microsoft Azure (Azure Repos, Azure Pipelines, Azure Static Web Apps), Docker (secured DMZ perimeter), Linux, Bash, Git, PowerShell
 - **AI-Assisted Engineering:** LLM workflows, automated scripting, agentic prototyping
 
 ## 🌟 Key Highlights
-- **Corporate Cloud Modernization:** Leading technical redesign & migration of [Euro-Center Holding SE](https://www.euro-center.com) to cloud-native **Astro** within **Microsoft Azure** (Azure Repos, CI/CD), boosting Core Web Vitals, security, and developer velocity.
+- **Corporate Cloud Modernization:** Migrated the corporate website ([Euro-Center Holding SE](https://www.euro-center.com)) to **Astro**, with source control in **Azure Repos** and automated deployment through **Azure Pipelines** to **Azure Static Web Apps**; achieved PageSpeed Insights scores of **98 Performance**, **97 Accessibility**, **96 Best Practices**, and **100 SEO**.
 - **Docker & Infrastructure:** Containerized legacy corporate WordPress platform with **Docker** on a dedicated Linux server within a secured **DMZ** environment, ensuring 99.9% uptime and smooth server migrations.
 - **Enterprise Solutions:** Developed a SharePoint-based Global Inventory System adopted across 12 international offices.
 - **Workflow Automation:** Automated core business and onboarding workflows via Power Automate and custom interfaces.

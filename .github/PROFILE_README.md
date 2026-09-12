@@ -16,7 +16,7 @@
 
 Frontend Developer with **6+ years of commercial experience** delivering performant web applications, modern frontend architecture, and enterprise business automation. Based in **Prague, Czech Republic**.
 
-- 🚀 **Corporate Cloud Modernization:** Leading technical redesign and migration of [Euro-Center Holding SE](https://www.euro-center.com) corporate platform from WordPress to **Astro** in **Microsoft Azure** (Azure Repos, CI/CD), significantly improving Core Web Vitals and maintainability.
+- 🚀 **Corporate Cloud Modernization:** Migrated the corporate website ([Euro-Center Holding SE](https://www.euro-center.com)) to **Astro**, with source control in **Azure Repos** and automated deployment through **Azure Pipelines** to **Azure Static Web Apps** (desktop PageSpeed scores: **98 Performance**, **97 Accessibility**, **96 Best Practices**, **100 SEO**).
 - 🐳 **Infrastructure & Containerization:** Containerized corporate WordPress platform using **Docker** on a dedicated Linux server in a secured **DMZ** environment (maintaining 99.9% uptime).
 - ⚙️ **Enterprise Automation:** Built SharePoint Global Inventory Systems and operational workflow automations (Power Automate) deployed across 12 international offices.
 - 🎯 **Continuous Growth:** Actively expanding depth and hands-on production skills in **React** and **TypeScript**.
@@ -67,7 +67,7 @@ Frontend Developer with **6+ years of commercial experience** delivering perform
 ### 🌟 Featured Repositories & Highlights
 
 - 🌐 [**svitovan.github.io**](https://github.com/Svitovan/svitovan.github.io) — Personal interactive portfolio & ATS-friendly CV featuring Dark Mode, responsive WebP optimization, automated CI/CD pipeline, and Schema.org linked data graph.
-- 🏢 [**Euro-Center Holding SE**](https://www.euro-center.com) — Corporate platform modernization from legacy monolithic architecture to cloud-native Astro in Azure.
+- 🏢 [**Euro-Center Holding SE**](https://www.euro-center.com) — Corporate platform modernization from legacy monolithic architecture to Astro deployed via Azure Pipelines to Azure Static Web Apps.
 - 🐌 [**Achatina E-Commerce Store**](https://www.achatina.com.ua) — Specialized B2C online shop with dynamic species catalog, category filtering, and mobile-optimized ordering workflows.
 - ⚛️ [**React & Interactive Experiments**](https://github.com/Svitovan?tab=repositories&q=react):
   - [**weather-app-react**](https://github.com/Svitovan/weather-app-react) — Real-time weather dashboard with external API integration.
