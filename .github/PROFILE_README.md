@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi there, I'm Aleš Janáček 👋
-### Frontend Developer · Modern JavaScript · Astro · Azure · Docker
+### Frontend & Web Developer · Modern JavaScript · Astro · Corporate Web Platforms
 
 [![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-svitovan.github.io-a7192e?style=for-the-badge&logo=githubpages&logoColor=white)](https://svitovan.github.io)
 [![Download Resume](https://img.shields.io/badge/Download_Resume-PDF-741122?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://svitovan.github.io/CV-Ales-Janacek.pdf)
@@ -14,12 +14,12 @@
 
 ### 👨‍💻 About Me
 
-Frontend Developer with **6+ years of commercial experience** delivering performant web applications, modern frontend architecture, and enterprise business automation. Based in **Prague, Czech Republic**.
+Frontend & Web Developer with **6+ years of commercial experience** delivering performant corporate web platforms, modern frontend architecture, and enterprise business automation. Based in **Prague, Czech Republic**.
 
 - 🚀 **Corporate Cloud Modernization:** Migrated the corporate website ([Euro-Center Holding SE](https://www.euro-center.com)) to **Astro**, with source control in **Azure Repos** and automated deployment through **Azure Pipelines** to **Azure Static Web Apps** (desktop PageSpeed scores: **98 Performance**, **97 Accessibility**, **96 Best Practices**, **100 SEO**).
 - 🐳 **Infrastructure & Containerization:** Containerized corporate WordPress platform using **Docker** on a dedicated Linux server in a secured **DMZ** environment (maintaining 99.9% uptime).
 - ⚙️ **Enterprise Automation:** Built SharePoint Global Inventory Systems and operational workflow automations (Power Automate) deployed across 12 international offices.
-- 🎯 **Continuous Growth:** Actively expanding depth and hands-on production skills in **React** and **TypeScript**.
+- 🎯 **Continuous Growth:** Expanding skills in **React** and **TypeScript**; using AI-assisted workflows for code exploration, prototyping, documentation, and test generation while reviewing all production changes manually.
 - 🏛️ **Executive Foundation:** Prior background as Chief Executive at Auction House Kleynod and municipal project coordinator at KCCA for **UEFA Euro 2012**, bringing mature business acumen, accountability, and cross-functional team coordination.
 
 ---

@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aleš_Janáček-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajanacek/)
 [![Location](https://img.shields.io/badge/Location-Prague,_Czech_Republic-6c6262?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Prague)
 
-Personal website and curriculum vitae of **Aleš Janáček**, Frontend Developer with 6+ years of commercial experience in modern web applications, enterprise business automation, modern JavaScript, and the **Astro** framework. Based in Prague, Czech Republic.
+Personal website and curriculum vitae of **Aleš Janáček**, Frontend & Web Developer with 6+ years of commercial experience in modern web applications, corporate web platforms, modern JavaScript, and the **Astro** framework. Based in Prague, Czech Republic.
 
 ---
 
@@ -20,7 +20,7 @@ Personal website and curriculum vitae of **Aleš Janáček**, Frontend Developer
 - **Active Learning / Expanding:** React, TypeScript
 - **Backend & Integrations:** REST APIs, SQL, SharePoint, Power Automate
 - **DevOps, Cloud & Infrastructure:** Microsoft Azure (Azure Repos, Azure Pipelines, Azure Static Web Apps), Docker (secured DMZ perimeter), Linux, Bash, Git, PowerShell
-- **AI-Assisted Engineering:** LLM workflows, automated scripting, agentic prototyping
+- **AI-Assisted Engineering:** Workflows for code exploration, prototyping, documentation, and test generation with manual code review
 
 ## 🌟 Key Highlights
 - **Corporate Cloud Modernization:** Migrated the corporate website ([Euro-Center Holding SE](https://www.euro-center.com)) to **Astro**, with source control in **Azure Repos** and automated deployment through **Azure Pipelines** to **Azure Static Web Apps**; achieved PageSpeed Insights scores of **98 Performance**, **97 Accessibility**, **96 Best Practices**, and **100 SEO**.

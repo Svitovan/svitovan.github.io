@@ -1,5 +1,5 @@
 # Aleš Janáček
-**Frontend Developer | JavaScript, Astro, Web Solutions | Prague, Czech Republic**
+**Frontend & Web Developer | JavaScript, Astro, Corporate Web Platforms | Prague, Czech Republic**
 
 - **Phone:** +420 776 677 173
 - **Email:** jana4ek@gmail.com
@@ -10,7 +10,7 @@
 ---
 
 ## Professional Summary
-Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites and business automation solutions. Skilled in JavaScript (ES6+), Astro, HTML5, CSS3, Docker, SQL and Git. Experienced in enterprise automation with SharePoint and Power Automate, server migrations and containerized deployments. Currently expanding skills into modern React and TypeScript. Actively applying AI-assisted development workflows (LLMs, AI agents) to streamline research, prototyping, and day-to-day engineering.
+Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites and business automation solutions. Skilled in JavaScript (ES6+), Astro, HTML5, CSS3, Docker, SQL and Git. Experienced in enterprise automation with SharePoint and Power Automate, server migrations and containerized deployments. Currently expanding skills into modern React and TypeScript. Use AI-assisted workflows for code exploration, prototyping, documentation, and test generation while reviewing all production changes manually.
 
 ## Technical Skills
 - **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
