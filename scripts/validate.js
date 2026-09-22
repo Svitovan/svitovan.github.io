@@ -38,6 +38,8 @@ const requiredAssets = [
     'red-352.jpg',
     'CV-Ales-Janacek.pdf',
     'CV-Ales-Janacek.md',
+    'CV-Ales-Janacek-cs.md',
+    'scripts/i18n.js',
     'assets/euro-center-preview.webp',
     'assets/euro-center-preview.jpg',
     'assets/achatina-preview.webp',

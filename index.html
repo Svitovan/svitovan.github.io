@@ -44,6 +44,22 @@
         })();
     </script>
 
+    <!-- Early Language Init (Prevent Flash of Untranslated Content) -->
+    <script>
+        (function() {
+            try {
+                const urlParams = new URLSearchParams(window.location.search);
+                const urlLang = urlParams.get('lang');
+                const saved = localStorage.getItem('svitovan_lang');
+                const browserLang = (navigator.language || '').toLowerCase();
+                const lang = urlLang || saved || (browserLang.startsWith('cs') || browserLang.startsWith('sk') ? 'cs' : 'en');
+                if (lang === 'cs') {
+                    document.documentElement.setAttribute('lang', 'cs');
+                }
+            } catch (e) {}
+        })();
+    </script>
+
     <!-- Schema.org JSON-LD Structured Data for Search Engines & AI Crawlers -->
     <script type="application/ld+json">
     {
@@ -267,12 +283,12 @@
                 <source type="image/jpeg" srcset="red-352.jpg 2x, red.jpg 1x" />
                 <img class="profile-image" src="red-352.jpg" alt="Portrait of Aleš Janáček" width="176" height="176" fetchpriority="high" decoding="async" />
             </picture>
-            <p class="profile-kicker">Curriculum Vitae</p>
+            <p class="profile-kicker" data-i18n="profile_kicker">Curriculum Vitae</p>
             <h1>Aleš Janáček</h1>
-            <p class="profile-role">
+            <p class="profile-role" data-i18n="profile_role">
                 Frontend &amp; Web Developer · JavaScript · Astro · Corporate Web Platforms
             </p>
-            <p class="profile-location">Prague, Czech Republic</p>
+            <p class="profile-location" data-i18n="profile_location">Prague, Czech Republic</p>
 
             <nav class="contact-links" aria-label="Contact links">
                 <!-- Phone -->
@@ -308,11 +324,11 @@
                 </a>
 
                 <!-- Download CV -->
-                <a class="contact-item cv-download-btn" href="CV-Ales-Janacek.pdf" download="CV-Ales-Janacek.pdf" title="Download CV (PDF)">
+                <a class="contact-item cv-download-btn" href="CV-Ales-Janacek.pdf" download="CV-Ales-Janacek.pdf" title="Download CV (PDF)" data-i18n-attr="title:download_cv_title">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
                     </svg>
-                    <span>Download CV (PDF)</span>
+                    <span data-i18n="download_cv">Download CV (PDF)</span>
                 </a>
             </nav>
         </div>
@@ -321,21 +337,27 @@
     <nav class="page-nav" aria-label="Page navigation">
         <div class="container nav-inner">
             <div class="nav-links">
-                <a href="#summary">Summary</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#details">About</a>
+                <a href="#summary" data-i18n="nav_summary">Summary</a>
+                <a href="#skills" data-i18n="nav_skills">Skills</a>
+                <a href="#experience" data-i18n="nav_experience">Experience</a>
+                <a href="#projects" data-i18n="nav_projects">Projects</a>
+                <a href="#education" data-i18n="nav_education">Education</a>
+                <a href="#details" data-i18n="nav_about">About</a>
             </div>
-            <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark/light theme">
-                <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
-                </svg>
-                <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M12.3 2a10 10 0 00-1.9 19.8 10 10 0 0011.6-11.6A10 10 0 0012.3 2zm-1 17.8A8 8 0 1113.8 4.2a8.04 8.04 0 00-2.5 15.6z"/>
-                </svg>
-            </button>
+            <div class="nav-controls">
+                <div class="lang-switch" role="group" aria-label="Select language" data-i18n-attr="aria-label:lang_switch_label">
+                    <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+                    <button type="button" class="lang-btn" data-lang="cs" aria-pressed="false">CS</button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark/light theme" data-i18n-attr="aria-label:theme_toggle_label,title:theme_toggle_title">
+                    <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 000-1.41.996.996 0 000-1.41l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+                    </svg>
+                    <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12.3 2a10 10 0 00-1.9 19.8 10 10 0 0011.6-11.6A10 10 0 0012.3 2zm-1 17.8A8 8 0 1113.8 4.2a8.04 8.04 0 00-2.5 15.6z"/>
+                    </svg>
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -344,16 +366,16 @@
         <section id="summary" class="section intro-section" aria-labelledby="summary-title">
             <div class="section-label">
                 <span>01</span>
-                <h2 id="summary-title">Professional summary</h2>
+                <h2 id="summary-title" data-i18n="summary_title">Professional summary</h2>
             </div>
             <div class="section-body">
-                <p class="lead">
+                <p class="lead" data-i18n="summary_lead">
                     Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites, and enterprise business automation solutions.
                 </p>
-                <p>
+                <p data-i18n-html="summary_p2">
                     Skilled in <strong>JavaScript (ES6+)</strong>, <strong>Astro</strong>, HTML5, CSS3, Docker, SQL, and Git. Delivered responsive user interfaces, led the modernization and migration of corporate web platforms, and built SharePoint-based inventory systems adopted across 12 international offices.
                 </p>
-                <p>
+                <p data-i18n-html="summary_p3">
                     Currently expanding capabilities into modern <strong>React</strong> and <strong>TypeScript</strong>. Use AI-assisted workflows for code exploration, prototyping, documentation, and test generation while reviewing all production changes manually.
                 </p>
             </div>
@@ -363,11 +385,11 @@
         <section id="skills" class="section" aria-labelledby="skills-title">
             <div class="section-label">
                 <span>02</span>
-                <h2 id="skills-title">Technical skills</h2>
+                <h2 id="skills-title" data-i18n="skills_title">Technical skills</h2>
             </div>
             <div class="section-body skills-grid">
                 <div class="skill-group">
-                    <h3>Frontend</h3>
+                    <h3 data-i18n="skills_group_frontend">Frontend</h3>
                     <div class="skill-badges">
                         <span class="skill-badge highlight">JavaScript (ES6+)</span>
                         <span class="skill-badge highlight">Astro</span>
@@ -381,7 +403,7 @@
                 </div>
 
                 <div class="skill-group">
-                    <h3>Expanding / Learning</h3>
+                    <h3 data-i18n="skills_group_learning">Expanding / Learning</h3>
                     <div class="skill-badges">
                         <span class="skill-badge learning">React</span>
                         <span class="skill-badge learning">TypeScript</span>
@@ -389,7 +411,7 @@
                 </div>
 
                 <div class="skill-group">
-                    <h3>Backend &amp; Automation</h3>
+                    <h3 data-i18n="skills_group_backend">Backend &amp; Automation</h3>
                     <div class="skill-badges">
                         <span class="skill-badge">REST APIs</span>
                         <span class="skill-badge">SQL</span>
@@ -399,7 +421,7 @@
                 </div>
 
                 <div class="skill-group">
-                    <h3>DevOps &amp; Infrastructure</h3>
+                    <h3 data-i18n="skills_group_devops">DevOps &amp; Infrastructure</h3>
                     <div class="skill-badges">
                         <span class="skill-badge highlight">Docker</span>
                         <span class="skill-badge">Git</span>
@@ -410,7 +432,7 @@
                 </div>
 
                 <div class="skill-group wide-detail">
-                    <h3>Design &amp; Additional Tools</h3>
+                    <h3 data-i18n="skills_group_design">Design &amp; Additional Tools</h3>
                     <div class="skill-badges">
                         <span class="skill-badge">Photoshop</span>
                         <span class="skill-badge">Lightroom</span>
@@ -429,39 +451,39 @@
         <section id="experience" class="section" aria-labelledby="experience-title">
             <div class="section-label">
                 <span>03</span>
-                <h2 id="experience-title">Work experience</h2>
+                <h2 id="experience-title" data-i18n="experience_title">Work experience</h2>
             </div>
             <div class="section-body timeline">
                 <article class="timeline-item">
                     <div class="item-heading">
                         <div>
-                            <h3>Frontend Developer</h3>
+                            <h3 data-i18n="exp1_role">Frontend Developer</h3>
                             <p class="company">Euro-Center Holding SE</p>
                         </div>
-                        <p class="date">
+                        <p class="date" data-i18n-html="exp1_date">
                             2020–Present<br />Prague, Czech Republic
                         </p>
                     </div>
                     <ul>
-                        <li>
+                        <li data-i18n-html="exp1_b1">
                             Migrated the corporate website (<a href="https://www.euro-center.com" target="_blank" rel="noreferrer">euro-center.com</a>) to <strong>Astro</strong>, with source control in <strong>Azure Repos</strong> and automated deployment through <strong>Azure Pipelines</strong> to <strong>Azure Static Web Apps</strong>.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp1_b2">
                             Achieved desktop PageSpeed Insights scores of <strong>98 Performance</strong>, <strong>97 Accessibility</strong>, <strong>96 Best Practices</strong>, and <strong>100 SEO</strong> for the new Astro website.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp1_b3">
                             Containerized the corporate WordPress platform using <strong>Docker</strong> on a dedicated Linux server in a secured <strong>DMZ</strong> environment; executed seamless server migrations and maintained corporate web infrastructure with 99.9% uptime.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp1_b4">
                             Developed and deployed a SharePoint-based Global Inventory system adopted by operational teams across 12 international offices.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp1_b5">
                             Built interactive internal interfaces with JavaScript, HTML, and CSS for corporate employees managing business data, reporting, and operational records.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp1_b6">
                             Automated employee onboarding, administrative workflows, and operational requests using Power Automate and SharePoint integration.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp1_b7">
                             Administered Azure environments and executed SQL queries for business data operations.
                         </li>
                     </ul>
@@ -486,15 +508,15 @@
                 <article class="timeline-item">
                     <div class="item-heading">
                         <div>
-                            <h3>Technical Support Specialist (1C)</h3>
+                            <h3 data-i18n="exp2_role">Technical Support Specialist (1C)</h3>
                             <p class="company">Ista Corporation s.r.o.</p>
                         </div>
-                        <p class="date">
+                        <p class="date" data-i18n-html="exp2_date">
                             2018–2020<br />Prague, Czech Republic
                         </p>
                     </div>
                     <ul>
-                        <li>
+                        <li data-i18n="exp2_b1">
                             Provided technical support for 1C business software, investigated complex user issues, and ensured day-to-day software stability.
                         </li>
                     </ul>
@@ -503,15 +525,15 @@
                 <article class="timeline-item">
                     <div class="item-heading">
                         <div>
-                            <h3>Junior Frontend Developer</h3>
+                            <h3 data-i18n="exp3_role">Junior Frontend Developer</h3>
                             <p class="company">HSI, spol. s r.o.</p>
                         </div>
-                        <p class="date">
+                        <p class="date" data-i18n-html="exp3_date">
                             2017–2018<br />Prague, Czech Republic
                         </p>
                     </div>
                     <ul>
-                        <li>
+                        <li data-i18n="exp3_b1">
                             Supported web application development using JavaScript, HTML, CSS, and SQL; worked on UI implementation and database integration tasks.
                         </li>
                     </ul>
@@ -520,22 +542,22 @@
                 <article class="timeline-item">
                     <div class="item-heading">
                         <div>
-                            <h3>Earlier Leadership &amp; Operational Experience</h3>
-                            <p class="company">Executive, Municipal &amp; Technical Roles</p>
+                            <h3 data-i18n="exp4_title">Earlier Leadership &amp; Operational Experience</h3>
+                            <p class="company" data-i18n="exp4_subtitle">Executive, Municipal &amp; Technical Roles</p>
                         </div>
-                        <p class="date">2008–2017</p>
+                        <p class="date" data-i18n="exp4_date">2008–2017</p>
                     </div>
-                    <p style="margin: 0.75rem 0 0.5rem; color: var(--muted); font-size: 0.94rem;">
+                    <p style="margin: 0.75rem 0 0.5rem; color: var(--muted); font-size: 0.94rem;" data-i18n="exp4_intro">
                         Transitioned into software engineering with a proven background in executive management and high-stakes municipal coordination, providing strong business acumen, high accountability, and cross-functional leadership skills:
                     </p>
                     <ul>
-                        <li>
+                        <li data-i18n-html="exp4_b1">
                             <strong>Chief Executive &amp; Expert</strong> — Auction House “Kleynod”: General business operations, organizational leadership, auction management, and client strategy.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp4_b2">
                             <strong>Chief Specialist</strong> — Kyiv City State Administration: High-stakes project coordination and inter-departmental operations for the UEFA Euro 2012 preparations and staging.
                         </li>
-                        <li>
+                        <li data-i18n-html="exp4_b3">
                             <strong>Sales Manager &amp; Technical Support</strong> — DiViPiX s.r.o. &amp; Apple: Client relations, hardware/software troubleshooting, and technical support.
                         </li>
                     </ul>
@@ -547,14 +569,14 @@
         <section id="projects" class="section" aria-labelledby="projects-title">
             <div class="section-label">
                 <span>04</span>
-                <h2 id="projects-title">Selected web projects</h2>
+                <h2 id="projects-title" data-i18n="projects_title">Selected web projects</h2>
             </div>
             <div class="section-body project-grid">
                 <!-- Euro-Center Card -->
                 <article class="project-card">
                     <div>
                         <!-- Visual Browser Mockup with Real Screenshot -->
-                        <a class="browser-mockup-link" href="https://www.euro-center.com" target="_blank" rel="noreferrer" title="Visit euro-center.com (opens in new tab)">
+                        <a class="browser-mockup-link" href="https://www.euro-center.com" target="_blank" rel="noreferrer" title="Visit euro-center.com (opens in new tab)" data-i18n-attr="title:proj1_mockup_title">
                             <div class="browser-mockup">
                                 <div class="browser-chrome">
                                     <div class="browser-dots">
@@ -576,15 +598,15 @@
                                         <img class="browser-screenshot" src="assets/euro-center-preview.jpg" alt="Euro-Center Holding Corporate Website Preview" width="1024" height="862" loading="lazy" decoding="async" />
                                     </picture>
                                     <span class="browser-hover-overlay">
-                                        <span>Visit euro-center.com ↗</span>
+                                        <span data-i18n="proj1_overlay">Visit euro-center.com ↗</span>
                                     </span>
                                 </div>
                             </div>
                         </a>
 
-                        <p class="project-type">Corporate Cloud Modernization</p>
+                        <p class="project-type" data-i18n="proj1_type">Corporate Cloud Modernization</p>
                         <h3>Euro-Center</h3>
-                        <p class="project-summary">
+                        <p class="project-summary" data-i18n-html="proj1_summary">
                             Re-architected the corporate web platform from a dedicated Dockerized WordPress setup to an <strong>Astro</strong> website deployed automatically through <strong>Azure Pipelines</strong> to <strong>Azure Static Web Apps</strong>, improving performance, security, and maintainability.
                         </p>
                     </div>
@@ -598,7 +620,7 @@
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">WordPress</span>
                         </div>
-                        <a class="project-link" href="https://www.euro-center.com" target="_blank" rel="noreferrer">
+                        <a class="project-link" href="https://www.euro-center.com" target="_blank" rel="noreferrer" data-i18n-html="proj1_link">
                             Visit euro-center.com <span aria-hidden="true">↗</span>
                         </a>
                     </div>
@@ -608,7 +630,7 @@
                 <article class="project-card">
                     <div>
                         <!-- Visual Browser Mockup with Real Screenshot -->
-                        <a class="browser-mockup-link" href="https://www.achatina.com.ua" target="_blank" rel="noreferrer" title="Visit achatina.com.ua (opens in new tab)">
+                        <a class="browser-mockup-link" href="https://www.achatina.com.ua" target="_blank" rel="noreferrer" title="Visit achatina.com.ua (opens in new tab)" data-i18n-attr="title:proj2_mockup_title">
                             <div class="browser-mockup">
                                 <div class="browser-chrome">
                                     <div class="browser-dots">
@@ -622,7 +644,7 @@
                                         </svg>
                                         <span>achatina.com.ua</span>
                                     </div>
-                                    <div class="browser-badge">E-Commerce Store</div>
+                                    <div class="browser-badge" data-i18n="proj2_badge">E-Commerce Store</div>
                                 </div>
                                 <div class="browser-screenshot-viewport">
                                     <picture>
@@ -630,15 +652,15 @@
                                         <img class="browser-screenshot" src="assets/achatina-preview.jpg" alt="Achatina Specialized E-Commerce Store Preview" width="1024" height="622" loading="lazy" decoding="async" />
                                     </picture>
                                     <span class="browser-hover-overlay">
-                                        <span>Visit achatina.com.ua ↗</span>
+                                        <span data-i18n="proj2_overlay">Visit achatina.com.ua ↗</span>
                                     </span>
                                 </div>
                             </div>
                         </a>
 
-                        <p class="project-type">Specialized E-Commerce Platform</p>
+                        <p class="project-type" data-i18n="proj2_type">Specialized E-Commerce Platform</p>
                         <h3>Achatina</h3>
-                        <p class="project-summary">
+                        <p class="project-summary" data-i18n="proj2_summary">
                             Designed and engineered a responsive B2C e-commerce platform for an exotic snail breeding and terrarium supply business. Built dynamic product catalog navigation, species category filtering, interactive media galleries, mobile-friendly order inquiry workflows, and client-side form validation.
                         </p>
                     </div>
@@ -650,7 +672,7 @@
                             <span class="tech-tag">WordPress / CMS</span>
                             <span class="tech-tag">HTML5 / CSS3</span>
                         </div>
-                        <a class="project-link" href="https://www.achatina.com.ua" target="_blank" rel="noreferrer">
+                        <a class="project-link" href="https://www.achatina.com.ua" target="_blank" rel="noreferrer" data-i18n-html="proj2_link">
                             Visit achatina.com.ua <span aria-hidden="true">↗</span>
                         </a>
                     </div>
@@ -662,22 +684,22 @@
         <section id="education" class="section" aria-labelledby="education-title">
             <div class="section-label">
                 <span>05</span>
-                <h2 id="education-title">Education</h2>
+                <h2 id="education-title" data-i18n="education_title">Education</h2>
             </div>
             <div class="section-body education-list">
                 <article class="education-item">
                     <div>
-                        <h3>Czech Technical University in Prague</h3>
-                        <p>Faculty of Nuclear Sciences and Physical Engineering · Mathematical Engineering</p>
+                        <h3 data-i18n="edu1_school">Czech Technical University in Prague</h3>
+                        <p data-i18n="edu1_fac">Faculty of Nuclear Sciences and Physical Engineering · Mathematical Engineering</p>
                     </div>
-                    <p class="date">PhD studies<br />2009–2011</p>
+                    <p class="date" data-i18n-html="edu1_date">PhD studies<br />2009–2011</p>
                 </article>
                 <article class="education-item">
                     <div>
-                        <h3>National Technical University of Ukraine “Igor Sikorsky KPI”</h3>
-                        <p>Faculty of Chemical Engineering · Master’s Degree in Polymer Processing Technology</p>
+                        <h3 data-i18n="edu2_school">National Technical University of Ukraine “Igor Sikorsky KPI”</h3>
+                        <p data-i18n="edu2_fac">Faculty of Chemical Engineering · Master’s Degree in Polymer Processing Technology</p>
                     </div>
-                    <p class="date">Master’s degree<br />2003–2009</p>
+                    <p class="date" data-i18n-html="edu2_date">Master’s degree<br />2003–2009</p>
                 </article>
             </div>
         </section>
@@ -686,12 +708,12 @@
         <section id="details" class="section details-section" aria-labelledby="details-title">
             <div class="section-label">
                 <span>06</span>
-                <h2 id="details-title">More about me</h2>
+                <h2 id="details-title" data-i18n="details_title">More about me</h2>
             </div>
             <div class="section-body details-grid">
                 <div>
-                    <h3>Languages</h3>
-                    <p>
+                    <h3 data-i18n="details_languages_title">Languages</h3>
+                    <p data-i18n-html="details_languages_p">
                         <strong>Czech:</strong> Fluent / Full professional (C1)<br />
                         <strong>English:</strong> Professional working proficiency (C1)<br />
                         <strong>Ukrainian:</strong> Native<br />
@@ -699,20 +721,20 @@
                     </p>
                 </div>
                 <div>
-                    <h3>Hobbies &amp; Interests</h3>
-                    <p>
+                    <h3 data-i18n="details_hobbies_title">Hobbies &amp; Interests</h3>
+                    <p data-i18n-html="details_hobbies_p">
                         <a href="https://www.flickr.com/photos/yanchyk/albums/72157648694393397" target="_blank" rel="noreferrer">Photography</a>, videography, <a href="https://soundcloud.com/svitovan/tracks" target="_blank" rel="noreferrer">music production</a>, cycling, workout, yoga
                     </p>
                 </div>
                 <div class="wide-detail">
-                    <h3>Certificates &amp; Additional Information</h3>
+                    <h3 data-i18n="details_certs_title">Certificates &amp; Additional Information</h3>
                     <ul>
-                        <li>Diploma nostrified at the University of Chemistry and Technology, Prague</li>
-                        <li>Inventi. React Akademie, 2018</li>
-                        <li>Unicorn a.s., project .NET Hatchery, October 2017</li>
-                        <li>Refresher courses “Computer technology and design”, 2014</li>
-                        <li>JavaScript Advanced &amp; Essential — CyberBionic, 2015</li>
-                        <li>Driving license: B category</li>
+                        <li data-i18n="details_certs_1">Diploma nostrified at the University of Chemistry and Technology, Prague</li>
+                        <li data-i18n="details_certs_2">Inventi. React Akademie, 2018</li>
+                        <li data-i18n="details_certs_3">Unicorn a.s., project .NET Hatchery, October 2017</li>
+                        <li data-i18n="details_certs_4">Refresher courses “Computer technology and design”, 2014</li>
+                        <li data-i18n="details_certs_5">JavaScript Advanced &amp; Essential — CyberBionic, 2015</li>
+                        <li data-i18n="details_certs_6">Driving license: B category</li>
                     </ul>
                 </div>
             </div>
@@ -721,7 +743,7 @@
 
     <footer class="site-footer">
         <div class="container footer-inner">
-            <p>Aleš Janáček · Frontend &amp; Web Developer · Prague</p>
+            <p data-i18n="footer_text">Aleš Janáček · Frontend &amp; Web Developer · Prague</p>
             <a href="mailto:jana4ek@gmail.com">jana4ek@gmail.com</a>
         </div>
     </footer>
@@ -731,8 +753,11 @@
         <svg viewBox="0 0 20 20">
             <path d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z"/>
         </svg>
-        <span id="toast-text">Copied to clipboard!</span>
+        <span id="toast-text" data-i18n="toast_copied">Copied to clipboard!</span>
     </div>
+
+    <!-- Localization Engine -->
+    <script src="scripts/i18n.js"></script>
 
     <!-- Micro-interactivity: Scrollspy & Clipboard Copy -->
     <script>
@@ -756,11 +781,12 @@
                     e.preventDefault();
                     e.stopPropagation();
                     const text = button.getAttribute('data-copy');
+                    const prefix = (window.svitovani18n && window.svitovani18n.getTranslation('toast_copied_prefix')) || 'Copied: ';
                     if (navigator.clipboard) {
                         navigator.clipboard.writeText(text).then(() => {
-                            showToast(`Copied: ${text}`);
+                            showToast(`${prefix}${text}`);
                         }).catch(() => {
-                            showToast(`Copied: ${text}`);
+                            showToast(`${prefix}${text}`);
                         });
                     } else {
                         const input = document.createElement('input');
@@ -769,7 +795,7 @@
                         input.select();
                         document.execCommand('copy');
                         document.body.removeChild(input);
-                        showToast(`Copied: ${text}`);
+                        showToast(`${prefix}${text}`);
                     }
                 });
             });
