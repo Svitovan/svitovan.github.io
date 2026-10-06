@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Calendar for Hermes</title>
+<meta name="robots" content="index, follow">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0 auto; padding: 2.5rem 1.25rem 4rem; max-width: 46rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #1c1c1e; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #141416; } a { color: #7ab8ff; } }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .25rem; }
+  h2 { font-size: 1.12rem; margin: 2rem 0 .5rem; }
+  .updated { color: #6b6b70; font-size: .9rem; margin: 0 0 2rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin: .3rem 0; }
+  code { font-size: .92em; background: rgba(127,127,127,.14); padding: .1em .35em; border-radius: 3px; }
+  hr { border: 0; border-top: 1px solid rgba(127,127,127,.3); margin: 2.5rem 0 1.5rem; }
+  footer { color: #6b6b70; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="updated">Application: <strong>Calendar for Hermes</strong> · Last updated: 6 October 2026</p>
+
+<h2>1. What this application is</h2>
+<p><strong>Calendar for Hermes</strong> is a private, single-user OAuth 2.0 client. It lets its owner
+(Aleš Janáček, <a href="mailto:alex.yanchyk@gmail.com">alex.yanchyk@gmail.com</a>) use their personal
+Hermes Agent assistant to view and manage the owner's own Google Calendar and Google Tasks.
+It is not a public service, it has no other users, and it is not distributed.</p>
+
+<h2>2. What data it accesses</h2>
+<ul>
+  <li><strong>Google Calendar</strong> — event titles, start/end times, locations, descriptions and attendee lists
+      (<code>https://www.googleapis.com/auth/calendar</code>). The application may create, update and delete
+      events, always at the owner's explicit request.</li>
+  <li><strong>Google Tasks</strong> — task lists, task titles, due dates and notes
+      (<code>https://www.googleapis.com/auth/tasks</code>), with the same read/write nature.</li>
+  <li><strong>Account identifier</strong> — the email address of the account that authorized the application,
+      used only to bind the stored token to that account.</li>
+</ul>
+
+<h2>3. How the data is used</h2>
+<p>Only to carry out the owner's own instructions, for example: showing the day's schedule, creating an event,
+listing or completing a task. The data is not used for advertising, profiling, analytics, or training of any model,
+and it is not used for any purpose beyond answering the owner's request.</p>
+
+<h2>4. Where the data is processed and stored</h2>
+<ul>
+  <li>Requests go <strong>directly from the owner's own self-hosted computer to Google's APIs</strong>.
+      There is no intermediate server, no cloud database and no third-party processor.</li>
+  <li>OAuth tokens are kept <strong>locally</strong> on the owner's machine in a permission-restricted file
+      (<code>~/.hermes/google_token.json</code>, mode 600). Tokens are never sent anywhere except to Google's own
+      token endpoint.</li>
+  <li>Calendar and task content appears only in the owner's own assistant session and logs on that machine.
+      Nothing is sold, rented, shared or disclosed to third parties, except where required by law.</li>
+</ul>
+
+<h2>5. Retention and deletion</h2>
+<ul>
+  <li>The application keeps no separate copy of Google data in any remote store under its control.</li>
+  <li>Access can be revoked at any time on Google's
+      <a href="https://myaccount.google.com/permissions">Third-party apps &amp; services</a> page, which immediately
+      invalidates the stored token.</li>
+  <li>Deleting <code>~/.hermes/google_token.json</code> on the owner's machine removes the local credential
+      as well.</li>
+</ul>
+
+<h2>6. Security</h2>
+<ul>
+  <li>OAuth 2.0 authorization-code flow with PKCE; the requested scopes are limited to <code>calendar</code>
+      and <code>tasks</code>.</li>
+  <li>All communication with Google runs over HTTPS. The local token file is readable only by the owner's
+      user account.</li>
+</ul>
+
+<h2>7. Children and commercial use</h2>
+<p>Not applicable — the application is not offered to the public, has a single user (its owner) and is not used
+commercially.</p>
+
+<h2>8. Changes</h2>
+<p>Any material change to this policy will be published on this page with an updated date.</p>
+
+<h2>9. Contact</h2>
+<p>Questions about this policy: <a href="mailto:alex.yanchyk@gmail.com">alex.yanchyk@gmail.com</a>.</p>
+
+<hr>
+<h2 lang="ru">Кратко по-русски</h2>
+<p lang="ru">«Calendar for Hermes» — частное приложение для одного пользователя (владельца аккаунта). Оно даёт
+личному ассистенту Hermes доступ к <strong>Календарю</strong> и <strong>Задачам</strong> владельца, чтобы выполнять
+его поручения: показать расписание, создать событие, отметить задачу. Данные обрабатываются напрямую между
+компьютером владельца и API Google, посредников нет; токен доступа хранится локально в защищённом файле
+и никому не передаётся. Данные не продаются, не передаются третьим лицам и не используются для аналитики или
+обучения моделей. Доступ можно отозвать в любой момент на странице
+<a href="https://myaccount.google.com/permissions">сторонних приложений Google</a>.
+Вопросы: <a href="mailto:alex.yanchyk@gmail.com">alex.yanchyk@gmail.com</a>.</p>
+
+<footer>
+  <p><a href="/">← svitovan.github.io</a></p>
+</footer>
+</body>
+</html>
