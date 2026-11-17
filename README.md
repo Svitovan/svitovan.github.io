@@ -12,8 +12,8 @@ Personal website and curriculum vitae of **Aleš Janáček**, Frontend & Web Dev
 
 ## 🚀 Live Website & Resume
 - **Interactive Portfolio & CV:** **[svitovan.github.io](https://svitovan.github.io)**
-- **Direct Download (ATS-Friendly PDF):** **[CV-Ales-Janacek.pdf](https://svitovan.github.io/CV-Ales-Janacek.pdf)**
-- **Markdown Version:** **[CV-Ales-Janacek.md](CV-Ales-Janacek.md)**
+- **PDF:** [English](CV-Ales-Janacek.pdf) · [Čeština](CV-Ales-Janacek-cs.pdf)
+- **Markdown:** [English](CV-Ales-Janacek.md) · [Čeština](CV-Ales-Janacek-cs.md)
 
 ## 🛠️ Core Competencies & Tech Stack
 - **Frontend Core:** Modern JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, WordPress

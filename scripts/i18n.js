@@ -15,10 +15,15 @@
             profile_kicker: 'Curriculum Vitae',
             profile_role: 'Frontend & Web Developer · JavaScript · Astro · Corporate Web Platforms',
             profile_location: 'Prague, Czech Republic',
-            download_cv: 'Download CV (PDF)',
-            download_cv_title: 'Download CV (PDF)',
+            download_cv: 'Download CV (EN)',
+            download_cv_title: 'Download the English CV (PDF)',
+            download_cv_file: 'CV-Ales-Janacek.pdf',
+            view_projects: 'View projects',
+            contact_links_label: 'Contact links',
 
             // Navigation
+            nav_label: 'Page navigation',
+            nav_sections: 'Sections',
             nav_summary: 'Summary',
             nav_skills: 'Skills',
             nav_experience: 'Experience',
@@ -125,10 +130,15 @@
             profile_kicker: 'Životopis',
             profile_role: 'Frontend & Web Developer · JavaScript · Astro · Firemní webové platformy',
             profile_location: 'Praha, Česká republika',
-            download_cv: 'Stáhnout CV (PDF)',
-            download_cv_title: 'Stáhnout životopis v PDF',
+            download_cv: 'Stáhnout CV (CS)',
+            download_cv_title: 'Stáhnout český životopis (PDF)',
+            download_cv_file: 'CV-Ales-Janacek-cs.pdf',
+            view_projects: 'Zobrazit projekty',
+            contact_links_label: 'Kontakty',
 
             // Navigation
+            nav_label: 'Navigace po stránce',
+            nav_sections: 'Sekce',
             nav_summary: 'Profil',
             nav_skills: 'Dovednosti',
             nav_experience: 'Zkušenosti',
@@ -233,13 +243,17 @@
     function detectLanguage() {
         const urlParams = new URLSearchParams(window.location.search);
         const urlLang = urlParams.get('lang');
-        if (urlLang && translations[urlLang]) {
+        if (Object.hasOwn(translations, urlLang)) {
             return urlLang;
         }
 
-        const saved = localStorage.getItem('svitovan_lang');
-        if (saved && translations[saved]) {
-            return saved;
+        try {
+            const saved = localStorage.getItem('svitovan_lang');
+            if (Object.hasOwn(translations, saved)) {
+                return saved;
+            }
+        } catch {
+            // Browser storage may be unavailable.
         }
 
         const browserLang = (navigator.language || '').toLowerCase();
@@ -256,12 +270,15 @@
      * Update page content with selected language
      */
     function applyLanguage(lang) {
-        if (!translations[lang]) return;
         currentLang = lang;
 
         // Set html lang attribute
         document.documentElement.setAttribute('lang', lang);
-        localStorage.setItem('svitovan_lang', lang);
+        try {
+            localStorage.setItem('svitovan_lang', lang);
+        } catch {
+            // The language in the URL still works without browser storage.
+        }
 
         const dict = translations[lang];
 
@@ -313,6 +330,15 @@
         window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang, dict } }));
     }
 
+    function setLanguage(lang) {
+        if (!Object.hasOwn(translations, lang)) return;
+
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState(window.history.state, '', url);
+        applyLanguage(lang);
+    }
+
     /**
      * Public API
      */
@@ -323,9 +349,7 @@
         getTranslation: function (key) {
             return (translations[currentLang] && translations[currentLang][key]) || key;
         },
-        setLanguage: function (lang) {
-            applyLanguage(lang);
-        }
+        setLanguage
     };
 
     // Initialize when DOM is ready
@@ -345,7 +369,7 @@
                 e.preventDefault();
                 const targetLang = btn.getAttribute('data-lang');
                 if (targetLang && targetLang !== currentLang) {
-                    applyLanguage(targetLang);
+                    setLanguage(targetLang);
                 }
             });
         });

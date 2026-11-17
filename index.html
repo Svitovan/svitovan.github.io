@@ -52,7 +52,10 @@
                 const urlLang = urlParams.get('lang');
                 const saved = localStorage.getItem('svitovan_lang');
                 const browserLang = (navigator.language || '').toLowerCase();
-                const lang = urlLang || saved || (browserLang.startsWith('cs') || browserLang.startsWith('sk') ? 'cs' : 'en');
+                const preferred = urlLang === 'en' || urlLang === 'cs' ? urlLang : saved;
+                const lang = preferred === 'en' || preferred === 'cs'
+                    ? preferred
+                    : (browserLang.startsWith('cs') || browserLang.startsWith('sk') ? 'cs' : 'en');
                 if (lang === 'cs') {
                     document.documentElement.setAttribute('lang', 'cs');
                 }
@@ -218,61 +221,7 @@
     </script>
 
     <!-- Stylesheet with cache-busting -->
-    <link rel="stylesheet" href="style.css?v=20260911_4" />
-
-    <!-- Critical Inlined CSS for Header & Contacts -->
-    <style>
-        .contact-links {
-            display: flex !important;
-            flex-wrap: wrap !important;
-            justify-content: center !important;
-            align-items: center !important;
-            gap: 0.65rem 0.85rem !important;
-            margin-top: 1.85rem !important;
-        }
-        .contact-item {
-            display: inline-flex !important;
-            align-items: center !important;
-            gap: 0.5rem !important;
-            padding: 0.45rem 1rem !important;
-            border: 1px solid rgba(255, 255, 255, 0.25) !important;
-            border-radius: 999px !important;
-            background: rgba(255, 255, 255, 0.12) !important;
-            color: #ffffff !important;
-            text-decoration: none !important;
-            font-size: 0.9rem !important;
-            line-height: 1.2 !important;
-            box-sizing: border-box !important;
-            transition: all 0.2s ease !important;
-        }
-        .contact-item:hover {
-            background: rgba(255, 255, 255, 0.28) !important;
-            color: #ffffff !important;
-            text-decoration: none !important;
-            transform: translateY(-1px) !important;
-        }
-        .contact-item svg {
-            width: 16px !important;
-            height: 16px !important;
-            min-width: 16px !important;
-            min-height: 16px !important;
-            max-width: 16px !important;
-            max-height: 16px !important;
-            fill: #ffffff !important;
-            display: inline-block !important;
-            vertical-align: middle !important;
-            flex-shrink: 0 !important;
-        }
-        .cv-download-btn {
-            background: #ffffff !important;
-            color: #741122 !important;
-            border-color: #ffffff !important;
-            font-weight: 700 !important;
-        }
-        .cv-download-btn svg {
-            fill: #741122 !important;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css?v=20261117" />
 </head>
 
 <body>
@@ -290,53 +239,66 @@
             </p>
             <p class="profile-location" data-i18n="profile_location">Prague, Czech Republic</p>
 
-            <nav class="contact-links" aria-label="Contact links">
-                <!-- Phone -->
-                <a class="contact-item" href="tel:+420776677173">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                    </svg>
-                    <span>+420 776 677 173</span>
-                </a>
+            <div class="profile-links">
+                <div class="profile-actions">
+                    <a class="contact-item cv-download-btn" href="CV-Ales-Janacek.pdf" download="CV-Ales-Janacek.pdf"
+                        title="Download the English CV (PDF)"
+                        data-i18n-attr="href:download_cv_file,download:download_cv_file,title:download_cv_title">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                        </svg>
+                        <span data-i18n="download_cv">Download CV (EN)</span>
+                    </a>
+                    <a class="contact-item" href="#projects">
+                        <span data-i18n="view_projects">View projects</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M11 4h2v12l4.5-4.5 1.4 1.4L12 20l-6.9-7.1 1.4-1.4L11 16z"/>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="contact-links" aria-label="Contact links" data-i18n-attr="aria-label:contact_links_label">
+                    <!-- Phone -->
+                    <a class="contact-item" href="tel:+420776677173">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <span>+420 776 677 173</span>
+                    </a>
 
-                <!-- Email -->
-                <a class="contact-item" href="mailto:jana4ek@gmail.com">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                    </svg>
-                    <span>jana4ek@gmail.com</span>
-                </a>
+                    <!-- Email -->
+                    <a class="contact-item" href="mailto:jana4ek@gmail.com">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <span>jana4ek@gmail.com</span>
+                    </a>
 
-                <!-- LinkedIn -->
-                <a class="contact-item" href="https://www.linkedin.com/in/ajanacek/" target="_blank" rel="noreferrer">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.62 1.62 0 1 0 0-3.24 1.62 1.62 0 0 0 0 3.24M7.85 18.5v-8.37H5.06v8.37h2.79z"/>
-                    </svg>
-                    <span>LinkedIn</span>
-                </a>
+                    <!-- LinkedIn -->
+                    <a class="contact-item" href="https://www.linkedin.com/in/ajanacek/" target="_blank" rel="noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.62 1.62 0 1 0 0-3.24 1.62 1.62 0 0 0 0 3.24M7.85 18.5v-8.37H5.06v8.37h2.79z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
 
-                <!-- GitHub -->
-                <a class="contact-item" href="https://github.com/Svitovan" target="_blank" rel="noreferrer">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-                    </svg>
-                    <span>GitHub</span>
-                </a>
-
-                <!-- Download CV -->
-                <a class="contact-item cv-download-btn" href="CV-Ales-Janacek.pdf" download="CV-Ales-Janacek.pdf" title="Download CV (PDF)" data-i18n-attr="title:download_cv_title">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                    </svg>
-                    <span data-i18n="download_cv">Download CV (PDF)</span>
-                </a>
-            </nav>
+                    <!-- GitHub -->
+                    <a class="contact-item" href="https://github.com/Svitovan" target="_blank" rel="noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <nav class="page-nav" aria-label="Page navigation">
+    <nav class="page-nav" aria-label="Page navigation" data-i18n-attr="aria-label:nav_label">
         <div class="container nav-inner">
-            <div class="nav-links">
+            <button class="section-menu-toggle" type="button" aria-controls="section-links" aria-expanded="false" hidden>
+                <span data-i18n="nav_sections">Sections</span>
+            </button>
+            <div class="nav-links" id="section-links">
                 <a href="#summary" data-i18n="nav_summary">Summary</a>
                 <a href="#skills" data-i18n="nav_skills">Skills</a>
                 <a href="#experience" data-i18n="nav_experience">Experience</a>
@@ -757,7 +719,7 @@
     </div>
 
     <!-- Localization Engine -->
-    <script src="scripts/i18n.js"></script>
+    <script src="scripts/i18n.js?v=20261117"></script>
 
     <!-- Micro-interactivity: Scrollspy & Clipboard Copy -->
     <script>
@@ -827,7 +789,31 @@
             window.addEventListener('scroll', onScroll, { passive: true });
             onScroll();
 
-            // 3. Theme Toggle Handler
+            // 3. Mobile section menu
+            const sectionMenuToggle = document.querySelector('.section-menu-toggle');
+            const sectionLinks = document.getElementById('section-links');
+            const pageNav = document.querySelector('.page-nav');
+
+            function closeSectionMenu() {
+                sectionMenuToggle.setAttribute('aria-expanded', 'false');
+            }
+
+            sectionMenuToggle.hidden = false;
+            sectionMenuToggle.addEventListener('click', () => {
+                const expanded = sectionMenuToggle.getAttribute('aria-expanded') === 'true';
+                sectionMenuToggle.setAttribute('aria-expanded', String(!expanded));
+            });
+            sectionLinks.addEventListener('click', (event) => {
+                if (event.target.closest('a')) closeSectionMenu();
+            });
+            pageNav.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && sectionMenuToggle.getAttribute('aria-expanded') === 'true') {
+                    closeSectionMenu();
+                    sectionMenuToggle.focus();
+                }
+            });
+
+            // 4. Theme Toggle Handler
             const themeToggleBtn = document.getElementById('theme-toggle');
             if (themeToggleBtn) {
                 themeToggleBtn.addEventListener('click', () => {
