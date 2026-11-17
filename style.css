@@ -683,6 +683,11 @@ button:focus-visible {
   border-radius: 8px;
 }
 
+.project-card--teaser {
+  align-self: start;
+  min-height: auto;
+}
+
 .project-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-hover);
