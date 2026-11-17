@@ -27,6 +27,7 @@ Personal website and curriculum vitae of **Aleš Janáček**, Frontend & Web Dev
 - **Docker & Infrastructure:** Containerized legacy corporate WordPress platform with **Docker** on a dedicated Linux server within a secured **DMZ** environment, ensuring 99.9% uptime and smooth server migrations.
 - **Enterprise Solutions:** Developed a SharePoint-based Global Inventory System adopted across 12 international offices.
 - **Workflow Automation:** Automated core business and onboarding workflows via Power Automate and custom interfaces.
+- **Gym Tracker:** Built a mobile-first [strength-training PWA](https://github.com/Svitovan/gym-tracker) with TypeScript, Vite, and IndexedDB. It saves the active workout locally so it can be resumed after reloading.
 - **Specialized E-Commerce Platform:** Engineered a responsive B2C e-shop ([Achatina](https://www.achatina.com.ua)) for an exotic pet breeding business, featuring dynamic species catalog filtering, rich media lightbox galleries, and custom order inquiry workflows.
 - **Executive Leadership Foundation:** Prior background as Chief Executive at Auction House Kleynod and municipal project coordinator at KCCA for UEFA Euro 2012 staging, bringing mature business ownership and cross-functional leadership.
 

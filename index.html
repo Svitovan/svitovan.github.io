@@ -198,6 +198,18 @@
                 ]
             },
             {
+                "@type": "SoftwareSourceCode",
+                "@id": "https://svitovan.github.io/#project-gym-tracker",
+                "name": "Gym Tracker",
+                "description": "Mobile-first strength-training PWA with workout logging, a rest timer, and local session recovery.",
+                "codeRepository": "https://github.com/Svitovan/gym-tracker",
+                "programmingLanguage": "TypeScript",
+                "creator": {
+                    "@id": "https://svitovan.github.io/#person"
+                },
+                "keywords": ["Vite", "IndexedDB", "Service Worker", "Progressive Web App"]
+            },
+            {
                 "@type": "CreativeWork",
                 "@id": "https://svitovan.github.io/#project-achatina",
                 "name": "Achatina Specialized E-Commerce Platform",
@@ -221,7 +233,7 @@
     </script>
 
     <!-- Stylesheet with cache-busting -->
-    <link rel="stylesheet" href="style.css?v=20261117" />
+    <link rel="stylesheet" href="style.css?v=20261117_2" />
 </head>
 
 <body>
@@ -368,7 +380,8 @@
                     <h3 data-i18n="skills_group_learning">Expanding / Learning</h3>
                     <div class="skill-badges">
                         <span class="skill-badge learning">React</span>
-                        <span class="skill-badge learning">TypeScript</span>
+                        <a class="skill-badge learning" href="#project-gym-tracker"
+                            aria-label="TypeScript in Gym Tracker" data-i18n-attr="aria-label:gym_tracker_skill_link">TypeScript</a>
                     </div>
                 </div>
 
@@ -588,6 +601,34 @@
                     </div>
                 </article>
 
+                <article class="project-card" id="project-gym-tracker" aria-labelledby="gym-tracker-title">
+                    <div>
+                        <img class="project-preview" src="assets/gym-tracker-preview.webp"
+                            alt="Gym Tracker workout screen with a completed set and controls for weights and reps"
+                            data-i18n-attr="alt:gym_tracker_preview_alt"
+                            width="960" height="589" loading="lazy" decoding="async" />
+                        <p class="project-type" data-i18n="gym_tracker_type">Personal project · Strength-training PWA</p>
+                        <h3 id="gym-tracker-title">Gym Tracker</h3>
+                        <p class="project-summary" data-i18n="gym_tracker_summary">
+                            I built a mobile-first app for strength training. It logs sets, weights, and reps, tracks workout history, and starts a rest timer after each set.
+                        </p>
+                        <p class="project-summary" data-i18n="gym_tracker_offline">
+                            The app saves the workout and the timer's end time in IndexedDB so you can pick up where you left off after reloading. The service worker is designed to cache app files for offline use.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-tag-list">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">IndexedDB</span>
+                            <span class="tech-tag">Service Worker</span>
+                        </div>
+                        <a class="project-link" href="https://github.com/Svitovan/gym-tracker" target="_blank" rel="noreferrer">
+                            <span data-i18n="gym_tracker_link">View code on GitHub</span> <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </article>
+
                 <!-- Achatina Card -->
                 <article class="project-card">
                     <div>
@@ -719,7 +760,7 @@
     </div>
 
     <!-- Localization Engine -->
-    <script src="scripts/i18n.js?v=20261117"></script>
+    <script src="scripts/i18n.js?v=20261117_2"></script>
 
     <!-- Micro-interactivity: Scrollspy & Clipboard Copy -->
     <script>

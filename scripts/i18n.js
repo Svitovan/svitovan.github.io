@@ -84,6 +84,13 @@
             proj1_link: 'Visit euro-center.com <span aria-hidden="true">↗</span>',
             proj1_mockup_title: 'Visit euro-center.com (opens in new tab)',
 
+            gym_tracker_type: 'Personal project · Strength-training PWA',
+            gym_tracker_summary: 'I built a mobile-first app for strength training. It logs sets, weights, and reps, tracks workout history, and starts a rest timer after each set.',
+            gym_tracker_offline: "The app saves the workout and the timer's end time in IndexedDB so you can pick up where you left off after reloading. The service worker is designed to cache app files for offline use.",
+            gym_tracker_preview_alt: 'Gym Tracker workout screen with a completed set and controls for weights and reps',
+            gym_tracker_link: 'View code on GitHub',
+            gym_tracker_skill_link: 'TypeScript in Gym Tracker',
+
             proj2_type: 'Specialized E-Commerce Platform',
             proj2_badge: 'E-Commerce Store',
             proj2_summary: 'Designed and engineered a responsive B2C e-commerce platform for an exotic snail breeding and terrarium supply business. Built dynamic product catalog navigation, species category filtering, interactive media galleries, mobile-friendly order inquiry workflows, and client-side form validation.',
@@ -198,6 +205,13 @@
             proj1_overlay: 'Navštívit euro-center.com ↗',
             proj1_link: 'Navštívit euro-center.com <span aria-hidden="true">↗</span>',
             proj1_mockup_title: 'Navštívit euro-center.com (otevře se v nové záložce)',
+
+            gym_tracker_type: 'Osobní projekt · PWA pro silový trénink',
+            gym_tracker_summary: 'Vytvořil jsem aplikaci pro silový trénink na telefonu. Umožňuje zaznamenávat série, zátěž a opakování, zobrazuje historii tréninků a po každé sérii spouští časovač pauzy.',
+            gym_tracker_offline: 'Aplikace ukládá rozpracovaný trénink do IndexedDB včetně času, kdy má pauza skončit. Po obnovení stránky tak můžete pokračovat tam, kde jste přestali. Service worker je určen k ukládání souborů aplikace do mezipaměti pro použití bez připojení.',
+            gym_tracker_preview_alt: 'Obrazovka tréninku v Gym Trackeru s dokončenou sérií a ovládáním zátěže a opakování',
+            gym_tracker_link: 'Zdrojový kód na GitHubu',
+            gym_tracker_skill_link: 'TypeScript v Gym Trackeru',
 
             proj2_type: 'Specializovaná e-commerce platforma',
             proj2_badge: 'E-shop',

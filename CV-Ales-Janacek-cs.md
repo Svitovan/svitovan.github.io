@@ -54,6 +54,11 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 - Kompletní přepracování firemní webové platformy z dedikovaného Docker WordPress řešení na moderní web v Astro s automatickým nasazením přes Azure Pipelines do Azure Static Web Apps, což přineslo vyšší výkon, bezpečnost a snazší údržbu.
 - **Web:** [www.euro-center.com](https://www.euro-center.com)
 
+### Gym Tracker · Záznam silového tréninku
+- **Technologie:** TypeScript, Vite, IndexedDB, Service Worker
+- Vytvořil jsem mobilní webovou aplikaci PWA pro záznam sérií, vah a opakování s časovačem pauz. Rozpracovaný trénink se ukládá do IndexedDB, takže v něm lze pokračovat po obnovení stránky. Service worker ukládá soubory aplikace do mezipaměti pro použití offline.
+- **Zdrojový kód:** [Svitovan/gym-tracker](https://github.com/Svitovan/gym-tracker)
+
 ### Achatina — Specializovaná e-commerce platforma
 - **Tech:** JavaScript, E-Commerce UX, WordPress, HTML5, CSS3, Filtering
 - Návrh a realizace responzivní B2C e-commerce platformy pro chov exotických šneků a terarijní potřeby. Vytvoření dynamické navigace v katalogu produktů, filtrace podle druhů, interaktivních multimediálních galerií, mobilního objednávkového procesu a klientské validace formulářů.
