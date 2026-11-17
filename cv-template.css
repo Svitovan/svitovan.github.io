@@ -62,6 +62,7 @@ body {
 }
 
 .section-title {
+  break-after: avoid;
   font-size: 10pt;
   font-weight: 700;
   text-transform: uppercase;
@@ -210,16 +211,6 @@ body {
   color: #555;
   text-align: right;
   white-space: nowrap;
-}
-
-/* Two Column Details */
-.two-col {
-  display: flex;
-  gap: 16pt;
-}
-
-.two-col > div {
-  flex: 1;
 }
 
 .compact-list {

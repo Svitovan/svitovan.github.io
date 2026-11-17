@@ -12,13 +12,6 @@
 ## Professional Summary
 Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites and business automation solutions. Skilled in JavaScript (ES6+), Astro, HTML5, CSS3, Docker, SQL and Git. Experienced in enterprise automation with SharePoint and Power Automate, server migrations and containerized deployments. Currently expanding skills into modern React and TypeScript. Use AI-assisted workflows for code exploration, prototyping, documentation, and test generation while reviewing all production changes manually.
 
-## Technical Skills
-- **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
-- **Currently Learning / Expanding:** React, TypeScript
-- **Backend & Automation:** REST APIs, SQL, SharePoint, Power Automate
-- **DevOps & Infrastructure:** Git, Docker, Linux, Bash, Azure, PowerShell
-- **Design & Additional Tools:** Photoshop, Lightroom, DaVinci, 3ds Max, ArchiCAD, SketchUp, Kentico, FlutterFlow
-
 ## Work Experience
 
 ### Frontend Developer | Euro-Center Holding SE
@@ -64,6 +57,12 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 - Engineered a responsive B2C e-commerce platform for an exotic pet and terrarium supply business. Built dynamic product catalog navigation, species category filtering, rich media lightbox galleries, and custom order inquiry forms with client-side validation.
 - **Website:** [www.achatina.com.ua](https://www.achatina.com.ua)
 
+## Technical Skills
+- **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
+- **Currently Learning / Expanding:** React, TypeScript
+- **Backend & Automation:** REST APIs, SQL, SharePoint, Power Automate
+- **DevOps & Infrastructure:** Git, Docker, Linux, Bash, Azure, PowerShell
+
 ## Education
 
 ### Czech Technical University in Prague
@@ -87,6 +86,9 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 - Refresher courses "Computer technology and design", Postgraduate Institute “UKRSTENO”, 2014
 - JavaScript Advanced & Essential — CyberBionic Systematics, 2015
 - Driving license: B category
+
+## Design & Additional Tools
+- Photoshop, Lightroom, DaVinci Resolve, 3ds Max, ArchiCAD, SketchUp, Kentico, FlutterFlow
 
 ## Hobbies
 - [Photography](https://www.flickr.com/photos/yanchyk/albums/72157648694393397), videography, [music production](https://soundcloud.com/svitovan/tracks), cycling, workout, yoga

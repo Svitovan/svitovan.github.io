@@ -12,13 +12,6 @@
 ## Profesní profil
 Frontend Developer s více než 6 lety komerčních zkušeností s vývojem interních webových aplikací, moderních firemních webů a řešení pro automatizaci podnikových procesů. Zkušenosti s JavaScriptem (ES6+), Astro, HTML5, CSS3, Dockerem, SQL a Gitem. Zkušenosti s podnikovou automatizací pomocí SharePointu a Power Automate, bezvýpadkovými migracemi serverů a kontejnerizovaným nasazením. V současné době rozšiřuji své dovednosti v moderním Reactu a TypeScriptu. Využívám AI workflows pro průzkum kódu, rychlé prototypování, tvorbu dokumentace a generování testů s důslednou manuální revizí všech produkčních změn.
 
-## Technické dovednosti
-- **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
-- **Vzdělávání a rozvoj:** React, TypeScript
-- **Backend a automatizace:** REST APIs, SQL, SharePoint, Power Automate
-- **DevOps a infrastruktura:** Git, Docker, Linux, Bash, Azure, PowerShell
-- **Design a další nástroje:** Photoshop, Lightroom, DaVinci, 3ds Max, ArchiCAD, SketchUp, Kentico, FlutterFlow
-
 ## Pracovní zkušenosti
 
 ### Frontend Developer | Euro-Center Holding SE
@@ -64,6 +57,12 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 - Návrh a realizace responzivní B2C e-commerce platformy pro chov exotických šneků a terarijní potřeby. Vytvoření dynamické navigace v katalogu produktů, filtrace podle druhů, interaktivních multimediálních galerií, mobilního objednávkového procesu a klientské validace formulářů.
 - **Web:** [www.achatina.com.ua](https://www.achatina.com.ua)
 
+## Technické dovednosti
+- **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
+- **Vzdělávání a rozvoj:** React, TypeScript
+- **Backend a automatizace:** REST APIs, SQL, SharePoint, Power Automate
+- **DevOps a infrastruktura:** Git, Docker, Linux, Bash, Azure, PowerShell
+
 ## Vzdělání
 
 ### České vysoké učení technické v Praze (ČVUT)
@@ -87,6 +86,9 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 - Rekvalifikační kurzy „Počítačová technika a design“, Postgraduální institut „UKRSTENO“, 2014
 - JavaScript Advanced & Essential — CyberBionic Systematics, 2015
 - Řidičský průkaz: skupina B
+
+## Design a další nástroje
+- Photoshop, Lightroom, DaVinci Resolve, 3ds Max, ArchiCAD, SketchUp, Kentico, FlutterFlow
 
 ## Zájmy a koníčky
 - [Fotografie](https://www.flickr.com/photos/yanchyk/albums/72157648694393397), videotvorba, [hudební produkce](https://soundcloud.com/svitovan/tracks), cyklistika, posilování, jóga

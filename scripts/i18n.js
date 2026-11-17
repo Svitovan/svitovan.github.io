@@ -46,7 +46,6 @@
             skills_group_learning: 'Expanding / Learning',
             skills_group_backend: 'Backend & Automation',
             skills_group_devops: 'DevOps & Infrastructure',
-            skills_group_design: 'Design & Additional Tools',
 
             // Section 03: Experience
             experience_title: 'Work experience',
@@ -113,6 +112,7 @@
             details_languages_title: 'Languages',
             details_languages_p: '<strong>Czech:</strong> Fluent / Full professional (C1)<br /><strong>English:</strong> Professional working proficiency (C1)<br /><strong>Ukrainian:</strong> Native<br /><strong>Russian:</strong> Native',
             details_hobbies_title: 'Hobbies & Interests',
+            details_tools_title: 'Design & Additional Tools',
             details_hobbies_p: '<a href="https://www.flickr.com/photos/yanchyk/albums/72157648694393397" target="_blank" rel="noreferrer">Photography</a>, videography, <a href="https://soundcloud.com/svitovan/tracks" target="_blank" rel="noreferrer">music production</a>, cycling, workout, yoga',
             details_certs_title: 'Certificates & Additional Information',
             details_certs_1: 'Diploma nostrified at the University of Chemistry and Technology, Prague',
@@ -168,7 +168,6 @@
             skills_group_learning: 'Vzdělávání a rozvoj',
             skills_group_backend: 'Backend a automatizace',
             skills_group_devops: 'DevOps a infrastruktura',
-            skills_group_design: 'Design a další nástroje',
 
             // Section 03: Experience
             experience_title: 'Pracovní zkušenosti',
@@ -235,6 +234,7 @@
             details_languages_title: 'Jazyky',
             details_languages_p: '<strong>Čeština:</strong> Plynulá / plná profesionální znalost (C1)<br /><strong>Angličtina:</strong> Profesionální pracovní znalost (C1)<br /><strong>Ukrajinština:</strong> Rodilý mluvčí<br /><strong>Ruština:</strong> Rodilý mluvčí',
             details_hobbies_title: 'Zájmy a koníčky',
+            details_tools_title: 'Design a další nástroje',
             details_hobbies_p: '<a href="https://www.flickr.com/photos/yanchyk/albums/72157648694393397" target="_blank" rel="noreferrer">Fotografie</a>, videotvorba, <a href="https://soundcloud.com/svitovan/tracks" target="_blank" rel="noreferrer">hudební produkce</a>, cyklistika, posilování, jóga',
             details_certs_title: 'Certifikáty a doplňující informace',
             details_certs_1: 'Diplom nostrifikován na Vysoké škole chemicko-technologické v Praze (VŠCHT)',
