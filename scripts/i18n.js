@@ -87,6 +87,7 @@
             gym_tracker_summary: 'I built a mobile-first app for strength training. It logs sets, weights, and reps, tracks workout history, and starts a rest timer after each set.',
             gym_tracker_offline: "The app saves the workout and the timer's end time in IndexedDB so you can pick up where you left off after reloading. The service worker is designed to cache app files for offline use.",
             gym_tracker_preview_alt: 'Gym Tracker workout screen with a completed set and controls for weights and reps',
+            gym_tracker_demo_link: 'Open demo',
             gym_tracker_link: 'View code on GitHub',
             gym_tracker_skill_link: 'TypeScript in Gym Tracker',
 
@@ -212,6 +213,7 @@
             gym_tracker_summary: 'Vytvořil jsem aplikaci pro silový trénink na telefonu. Umožňuje zaznamenávat série, zátěž a opakování, zobrazuje historii tréninků a po každé sérii spouští časovač pauzy.',
             gym_tracker_offline: 'Aplikace ukládá rozpracovaný trénink do IndexedDB včetně času, kdy má pauza skončit. Po obnovení stránky tak můžete pokračovat tam, kde jste přestali. Service worker je určen k ukládání souborů aplikace do mezipaměti pro použití bez připojení.',
             gym_tracker_preview_alt: 'Obrazovka tréninku v Gym Trackeru s dokončenou sérií a ovládáním zátěže a opakování',
+            gym_tracker_demo_link: 'Otevřít demo',
             gym_tracker_link: 'Zdrojový kód na GitHubu',
             gym_tracker_skill_link: 'TypeScript v Gym Trackeru',
 

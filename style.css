@@ -865,6 +865,27 @@ button:focus-visible {
   opacity: 0.85;
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.85rem;
+  margin-top: 0.85rem;
+}
+
+.project-actions .project-link {
+  margin-top: 0;
+}
+
+.project-link--primary {
+  min-height: 2.75rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 6px;
+  background: var(--accent-dark);
+  color: var(--card-bg);
+  text-decoration: none;
+}
+
 /* ==========================================================================
    Education & Details
    ========================================================================== */
