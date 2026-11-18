@@ -77,10 +77,11 @@
 
             // Section 04: Projects
             projects_title: 'Selected web projects',
-            proj1_type: 'Corporate Cloud Modernization',
-            proj1_summary: 'Re-architected the corporate web platform from a dedicated Dockerized WordPress setup to an <strong>Astro</strong> website deployed automatically through <strong>Azure Pipelines</strong> to <strong>Azure Static Web Apps</strong>, improving performance, security, and maintainability.',
+            proj1_type: 'Corporate website modernization',
+            proj1_summary: 'I rebuilt the interactive map in <strong>vanilla JavaScript</strong> to replace a WordPress plugin. <strong>Euro-Center Network</strong> shows office locations and details. <strong>Medical Network</strong> shows the number of medical provider partners by country.',
+            proj1_migration: 'I migrated the corporate website to <strong>Astro</strong> and automated deployment to <strong>Azure Static Web Apps</strong> via <strong>Azure Pipelines</strong>.',
             proj1_overlay: 'Visit euro-center.com ↗',
-            proj1_link: 'Visit euro-center.com <span aria-hidden="true">↗</span>',
+            proj1_link: 'Explore the map <span aria-hidden="true">↗</span>',
             proj1_mockup_title: 'Visit euro-center.com (opens in new tab)',
 
             gym_tracker_type: 'Personal project · Strength-training PWA',
@@ -203,10 +204,11 @@
 
             // Section 04: Projects
             projects_title: 'Vybrané webové projekty',
-            proj1_type: 'Modernizace firemního cloudu',
-            proj1_summary: 'Kompletní přepracování firemní webové platformy z dedikovaného Docker WordPress řešení na moderní web v <strong>Astro</strong> s automatickým nasazením přes <strong>Azure Pipelines</strong> do <strong>Azure Static Web Apps</strong>, což přineslo vyšší výkon, bezpečnost a snazší údržbu.',
+            proj1_type: 'Modernizace firemního webu',
+            proj1_summary: 'Interaktivní mapu jsem přepracoval v <strong>čistém JavaScriptu</strong> jako náhradu za plugin pro WordPress. Záložka <strong>Euro-Center Network</strong> zobrazuje pobočky a informace o nich. <strong>Medical Network</strong> ukazuje počty partnerských poskytovatelů zdravotní péče v jednotlivých zemích.',
+            proj1_migration: 'Firemní web jsem převedl na <strong>Astro</strong> a nastavil automatické nasazování do <strong>Azure Static Web Apps</strong> pomocí <strong>Azure Pipelines</strong>.',
             proj1_overlay: 'Navštívit euro-center.com ↗',
-            proj1_link: 'Navštívit euro-center.com <span aria-hidden="true">↗</span>',
+            proj1_link: 'Prozkoumat mapu <span aria-hidden="true">↗</span>',
             proj1_mockup_title: 'Navštívit euro-center.com (otevře se v nové záložce)',
 
             gym_tracker_type: 'Osobní projekt · PWA pro silový trénink',

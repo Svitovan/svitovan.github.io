@@ -512,10 +512,13 @@
                             </div>
                         </a>
 
-                        <p class="project-type" data-i18n="proj1_type">Corporate Cloud Modernization</p>
+                        <p class="project-type" data-i18n="proj1_type">Corporate website modernization</p>
                         <h3>Euro-Center</h3>
+                        <p class="project-summary" data-i18n-html="proj1_migration">
+                            I migrated the corporate website to <strong>Astro</strong> and automated deployment to <strong>Azure Static Web Apps</strong> via <strong>Azure Pipelines</strong>.
+                        </p>
                         <p class="project-summary" data-i18n-html="proj1_summary">
-                            Re-architected the corporate web platform from a dedicated Dockerized WordPress setup to an <strong>Astro</strong> website deployed automatically through <strong>Azure Pipelines</strong> to <strong>Azure Static Web Apps</strong>, improving performance, security, and maintainability.
+                            I rebuilt the interactive map in <strong>vanilla JavaScript</strong> to replace a WordPress plugin. <strong>Euro-Center Network</strong> shows office locations and details. <strong>Medical Network</strong> shows the number of medical provider partners by country.
                         </p>
                     </div>
                     <div class="project-footer">
@@ -528,9 +531,11 @@
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">WordPress</span>
                         </div>
-                        <a class="project-link" href="https://www.euro-center.com" target="_blank" rel="noreferrer" data-i18n-html="proj1_link">
-                            Visit euro-center.com <span aria-hidden="true">↗</span>
-                        </a>
+                        <div class="project-actions">
+                            <a class="project-link project-link--primary" href="https://www.euro-center.com/#our-offices" target="_blank" rel="noreferrer" data-i18n-html="proj1_link">
+                                Explore the map <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
                     </div>
                 </article>
 
@@ -785,7 +790,7 @@
     </div>
 
     <!-- Localization Engine -->
-    <script src="scripts/i18n.js?v=20261118"></script>
+    <script src="scripts/i18n.js?v=20261118-2"></script>
 
     <!-- Micro-interactivity: Scrollspy & Clipboard Copy -->
     <script>
