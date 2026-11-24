@@ -11,7 +11,7 @@ Praha, Česká republika · čeština C1 · angličtina C1
 
 ## Profesní profil
 
-Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů a interních aplikací. V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích. Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu, která pomocí geolokace zobrazuje setkání u kávy v okolí a aktualizuje jejich seznam v reálném čase.
+Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů, interních aplikací a automatizací pracovních postupů. V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích. Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu s geolokací a aktualizacemi v reálném čase, kde využívám AI kódovací agenty a automatizované workflow pro zrychlení dodávky od architektury až po nasazení.
 
 ## Pracovní zkušenosti
 
@@ -45,7 +45,7 @@ Technologie: JavaScript, Astro, Azure Repos, Azure Pipelines, Azure Static Web A
 ### CupHere | Vlastní projekt v Reactu a TypeScriptu
 [Stránka před spuštěním](https://cuphere.com)
 
-Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth a aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions.
+Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth, aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions. Při samostatném vývoji full-stack funkcí jsem využíval AI kódovací agenty (Antigravity, Codex, Claude Code) napříč prototypováním, refaktoringem a validací testů a výstupů.
 
 React · TypeScript · TanStack Query · Supabase · PostgreSQL
 
@@ -74,8 +74,9 @@ Technologie: JavaScript, WordPress, HTML5, CSS3.
 ## Technické dovednosti
 
 - **Frontend:** React, TypeScript, JavaScript (ES6+), TanStack Query, Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
-- **Backend a data:** Supabase, PostgreSQL, REST API, SQL, SharePoint, Power Automate
+- **Backend a data:** Supabase, PostgreSQL, REST API, SQL, SharePoint
 - **DevOps a cloud:** Git, GitHub Actions, Docker, Linux, Bash, Azure Repos, Azure Pipelines, Azure Static Web Apps, PowerShell
+- **AI a automatizace:** AI-assisted development (Antigravity, Codex, Claude Code), agentní vývojové workflow, návrh promptů a validace výstupů, Power Automate, SharePoint Workflows
 
 ## Vzdělání
 

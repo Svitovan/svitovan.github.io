@@ -11,7 +11,7 @@ Prague, Czech Republic · Czech C1 · English C1
 
 ## Professional Summary
 
-Frontend developer with 6+ years of commercial experience building corporate websites and internal applications. At Euro-Center, I migrated the corporate website to Astro and built an inventory system used across 12 international offices. I’m also building CupHere, a React and TypeScript app that uses geolocation to show nearby coffee meetups and updates the list in real time.
+Frontend developer with 6+ years of commercial experience building corporate websites, internal applications, and workflow automations. At Euro-Center, I migrated the corporate website to Astro and built an inventory system used across 12 international offices. I’m also building CupHere, a React and TypeScript app using geolocation and real-time updates, where I leverage AI coding agents and automated workflows to accelerate end-to-end delivery from architecture to deployment.
 
 ## Work Experience
 
@@ -45,7 +45,7 @@ Tech: JavaScript, Astro, Azure Repos, Azure Pipelines, Azure Static Web Apps, Do
 ### CupHere | Independent React & TypeScript project
 [Pre-launch landing page](https://cuphere.com)
 
-Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth and real-time meeting updates, and automated deployment with GitHub Actions.
+Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth, real-time meeting updates, and automated deployment with GitHub Actions. Applied AI coding agents (Antigravity, Codex, Claude Code) across prototyping, refactoring, and test/output validation to deliver full-stack features solo.
 
 React · TypeScript · TanStack Query · Supabase · PostgreSQL
 
@@ -74,8 +74,9 @@ Tech: JavaScript, E-Commerce UX, WordPress, HTML5, CSS3, Filtering.
 ## Technical Skills
 
 - **Frontend:** React, TypeScript, JavaScript (ES6+), TanStack Query, Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
-- **Backend & Data:** Supabase, PostgreSQL, REST APIs, SQL, SharePoint, Power Automate
+- **Backend & Data:** Supabase, PostgreSQL, REST APIs, SQL, SharePoint
 - **DevOps & Cloud:** Git, GitHub Actions, Docker, Linux, Bash, Azure Repos, Azure Pipelines, Azure Static Web Apps, PowerShell
+- **AI & Automation:** AI-assisted development (Antigravity, Codex, Claude Code), agentic coding workflows, prompt design & output validation, Power Automate, SharePoint Workflows
 
 ## Education
 

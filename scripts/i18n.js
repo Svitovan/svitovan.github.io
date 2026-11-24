@@ -36,15 +36,19 @@
 
             // Section 01: Summary
             summary_title: 'Professional summary',
-            summary_lead: 'Frontend developer with 6+ years of commercial experience building corporate websites and internal applications.',
+            summary_lead: 'Frontend developer with 6+ years of commercial experience building corporate websites, internal applications, and workflow automations.',
             summary_p2: 'At Euro-Center, I migrated the corporate website to Astro and built an inventory system used across 12 international offices.',
-            summary_p3: 'I’m also building CupHere, a React and TypeScript app that uses geolocation to show nearby coffee meetups and updates the list in real time.',
+            summary_p3: 'I’m also building CupHere, a React and TypeScript app using geolocation and real-time updates, where I leverage AI coding agents and automated workflows to accelerate end-to-end delivery from architecture to deployment.',
 
             // Section 02: Skills
             skills_title: 'Technical skills',
             skills_group_frontend: 'Frontend',
-            skills_group_backend: 'Backend & Automation',
+            skills_group_backend: 'Backend & Data',
             skills_group_devops: 'DevOps & Infrastructure',
+            skills_group_ai: 'AI & Automation',
+            skill_ai_dev: 'AI-assisted development',
+            skill_agentic: 'Agentic coding workflows',
+            skill_prompt_val: 'Prompt design & output validation',
 
             // Section 03: Experience
             experience_title: 'Work experience',
@@ -101,7 +105,7 @@
             proj2_mockup_title: 'Visit achatina.com.ua (opens in new tab)',
 
             cuphere_type: 'Independent product · Public release coming soon',
-            cuphere_summary: "Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth and real-time meeting updates, and automated deployment with GitHub Actions.",
+            cuphere_summary: 'Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth, real-time meeting updates, and automated deployment with GitHub Actions. Applied AI coding agents (Antigravity, Codex, Claude Code) across prototyping, refactoring, and test/output validation to deliver full-stack features solo.',
             cuphere_link: 'Pre-launch landing page',
 
             // Section 05: Education
@@ -162,15 +166,19 @@
 
             // Section 01: Summary
             summary_title: 'Profesní profil',
-            summary_lead: 'Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů a interních aplikací.',
+            summary_lead: 'Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů, interních aplikací a automatizací pracovních postupů.',
             summary_p2: 'V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích.',
-            summary_p3: 'Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu, která pomocí geolokace zobrazuje setkání u kávy v okolí a aktualizuje jejich seznam v reálném čase.',
+            summary_p3: 'Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu s geolokací a aktualizacemi v reálném čase, kde využívám AI kódovací agenty a automatizované workflow pro zrychlení dodávky od architektury až po nasazení.',
 
             // Section 02: Skills
             skills_title: 'Technické dovednosti',
             skills_group_frontend: 'Frontend',
-            skills_group_backend: 'Backend a automatizace',
+            skills_group_backend: 'Backend a data',
             skills_group_devops: 'DevOps a infrastruktura',
+            skills_group_ai: 'AI a automatizace',
+            skill_ai_dev: 'AI-assisted development',
+            skill_agentic: 'Agentní vývojové workflow',
+            skill_prompt_val: 'Návrh promptů a validace výstupů',
 
             // Section 03: Experience
             experience_title: 'Pracovní zkušenosti',
@@ -227,7 +235,7 @@
             proj2_mockup_title: 'Navštívit achatina.com.ua (otevře se v nové záložce)',
 
             cuphere_type: 'Vlastní produkt · Veřejné spuštění se blíží',
-            cuphere_summary: "Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth a aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions.",
+            cuphere_summary: 'Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth, aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions. Při samostatném vývoji full-stack funkcí jsem využíval AI kódovací agenty (Antigravity, Codex, Claude Code) napříč prototypováním, refaktoringem a validací testů a výstupů.',
             cuphere_link: 'Stránka před spuštěním',
 
             // Section 05: Education
