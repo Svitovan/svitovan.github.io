@@ -1,5 +1,7 @@
 # Aleš Janáček
-**Frontend & Web Developer | JavaScript, Astro, Firemní webové platformy | Praha, Česká republika**
+**Frontendový vývojář | JavaScript, TypeScript, React a Astro**
+
+Praha, Česká republika · čeština C1 · angličtina C1
 
 - **Telefon:** +420 776 677 173
 - **E-mail:** jana4ek@gmail.com
@@ -10,15 +12,16 @@
 ---
 
 ## Profesní profil
-Frontend Developer s více než 6 lety komerčních zkušeností s vývojem interních webových aplikací, moderních firemních webů a řešení pro automatizaci podnikových procesů. Zkušenosti s JavaScriptem (ES6+), Astro, HTML5, CSS3, Dockerem, SQL a Gitem. Zkušenosti s podnikovou automatizací pomocí SharePointu a Power Automate, bezvýpadkovými migracemi serverů a kontejnerizovaným nasazením. V současné době rozšiřuji své dovednosti v moderním Reactu a TypeScriptu. Využívám AI workflows pro průzkum kódu, rychlé prototypování, tvorbu dokumentace a generování testů s důslednou manuální revizí všech produkčních změn.
+Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů a interních aplikací. V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích. Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu, která pomocí geolokace zobrazuje setkání u kávy v okolí a aktualizuje jejich seznam v reálném čase.
 
 ## Pracovní zkušenosti
 
 ### Frontend Developer | Euro-Center Holding SE
 *2020–současnost | Praha, Česká republika*
 - Migrace firemního webu ([euro-center.com](https://www.euro-center.com)) do **Astro**, se správou verzí v **Azure Repos** a automatizovaným nasazením přes **Azure Pipelines** do **Azure Static Web Apps**.
+- Přepracoval jsem interaktivní mapu sítě v čistém JavaScriptu jako náhradu za plugin WordPressu. Mapa zobrazuje pobočky a počty poskytovatelů zdravotní péče podle zemí.
 - Dosažení skóre PageSpeed Insights pro desktop: **98 Performance**, **97 Accessibility**, **96 Best Practices** a **100 SEO** u nového webu v Astro.
-- Kontejnerizace firemní platformy WordPress pomocí **Dockeru** na dedikovaném linuxovém serveru v zabezpečené **DMZ** zóně; realizace bezvýpadkových migrací serverů a správa firemní webové infrastruktury s dostupností 99,9 %.
+- Nasadil jsem firemní web ve WordPressu v kontejnerech Dockeru na vyhrazeném linuxovém serveru v DMZ, migroval ho mezi servery a zajišťoval jeho provoz.
 - Vývoj a nasazení globálního systému evidence majetku (Global Inventory) na SharePointu, využívaného operativními týmy ve 12 zahraničních pobočkách.
 - Tvorba interaktivních interních rozhraní v JavaScriptu, HTML a CSS pro zaměstnance spravující obchodní data, reporting a provozní záznamy.
 - Automatizace onboardingu zaměstnanců, administrativních procesů a provozních požadavků pomocí integrace Power Automate a SharePointu.
@@ -38,19 +41,22 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 - Přechod do softwarového vývoje s bohatým zázemím v exekutivním managementu a koordinaci rozsáhlých městských projektů, které přinášejí hluboké obchodní povědomí, vysokou míru odpovědnosti a schopnost vést mezioborové týmy:
   - **Výkonný ředitel a znalec**, Aukční dům „Kleynod“ — Řízení firemních operací, organizační vedení, organizace aukcí a klientská strategie.
   - **Hlavní specialista**, Kyjevská městská státní správa — Koordinace klíčových projektů a meziútvarových operací při přípravě a realizaci fotbalového šampionátu UEFA Euro 2012.
-  - **Obchodní manažer a technická podpora**, DiViPiX s.r.o. / Apple — Péče o klienty, řešení hardwarových i softwarových problémů a technická podpora.
+  - **Obchodní manažer**, DiViPiX s.r.o.
+  - **Technická podpora**, Apple
 
 ## Vybrané webové projekty
+
+### CupHere | Vlastní projekt v Reactu a TypeScriptu
+Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth a aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions.
+
+**React · TypeScript · TanStack Query · Supabase · PostgreSQL**
+
+[Stránka před spuštěním](https://cuphere.com)
 
 ### Euro-Center — Modernizace firemního cloudu
 - **Tech:** Astro, Azure Repos, Azure Pipelines, Azure Static Web Apps, Docker, JavaScript, WordPress
 - Kompletní přepracování firemní webové platformy z dedikovaného Docker WordPress řešení na moderní web v Astro s automatickým nasazením přes Azure Pipelines do Azure Static Web Apps, což přineslo vyšší výkon, bezpečnost a snazší údržbu.
 - **Web:** [www.euro-center.com](https://www.euro-center.com)
-
-### CupHere — Vývoj vlastního produktu
-- **Technologie:** React, TypeScript, Vite, React Hook Form, TanStack Query, Supabase, PostgreSQL, Supabase Auth, Realtime, RLS, PWA / Workbox, GitHub Actions, Hetzner
-- Navrhl a vyvinul jsem geolokační PWA pro spontánní setkání u kávy s vyhledáváním v reálném čase, autentizací a koordinací setkání. Zajišťuji návrh produktu, UI/UX, integraci frontendu a backendu, databázovou architekturu, zabezpečení a nasazení. Veřejné spuštění se blíží.
-- **Web:** [cuphere.com](https://cuphere.com) — stránka před spuštěním.
 
 ### Gym Tracker · Záznam silového tréninku
 - **Technologie:** TypeScript, Vite, IndexedDB, Service Worker
@@ -63,10 +69,9 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 - **Web:** [www.achatina.com.ua](https://www.achatina.com.ua)
 
 ## Technické dovednosti
-- **Frontend:** JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
-- **Vzdělávání a rozvoj:** React, TypeScript
-- **Backend a automatizace:** REST APIs, SQL, SharePoint, Power Automate
-- **DevOps a infrastruktura:** Git, Docker, Linux, Bash, Azure, PowerShell
+- **Frontend:** React, TypeScript, JavaScript (ES6+), TanStack Query, Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery
+- **Backend a automatizace:** Supabase, PostgreSQL, REST API, SQL, SharePoint, Power Automate
+- **DevOps a infrastruktura:** Git, GitHub Actions, Docker, Linux, Bash, Azure Repos, Azure Pipelines, Azure Static Web Apps, PowerShell
 
 ## Vzdělání
 
@@ -77,20 +82,15 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 ### Národní technická univerzita Ukrajiny „Ihor Sikorsky KPI“
 *Fakulta chemického inženýrství*
 - Magisterské studium, Technologie zpracování polymerů, 2003–2009
+- Diplom uznán Vysokou školou chemicko-technologickou v Praze (VŠCHT)
 
 ## Jazyky
-- Čeština — Plynulá / plná profesionální znalost (C1)
-- Angličtina — Profesionální pracovní znalost (C1)
-- Ukrajinština — Rodilý mluvčí
-- Ruština — Rodilý mluvčí
+Čeština — C1 (pokročilá úroveň) · Angličtina — C1 (pokročilá úroveň)  
+Ukrajinština — rodný jazyk · Ruština — rodný jazyk
 
-## Certifikáty a doplňující informace
-- Diplom nostrifikován na Vysoké škole chemicko-technologické v Praze (VŠCHT)
-- Inventi. React Akademie, 2018
-- Unicorn a.s., projekt .NET Hatchery (UML, SQL, C#, .NET, XML, ASP .NET MVC, WCF, Návrhové vzory, GIT), říjen 2017
-- Rekvalifikační kurzy „Počítačová technika a design“, Postgraduální institut „UKRSTENO“, 2014
-- JavaScript Advanced & Essential — CyberBionic Systematics, 2015
-- Řidičský průkaz: skupina B
+## Kurzy a další informace
+- **Kurzy:** React Akademie — Inventi, 2018 · .NET Hatchery (UML, SQL, C#, .NET, XML, ASP.NET MVC, WCF, návrhové vzory, Git) — Unicorn a.s., říjen 2017 · JavaScript Advanced & Essential — CyberBionic Systematics, 2015 · Počítačová technika a design — Postgraduální institut UKRSTENO, 2014
+- **Řidičský průkaz:** skupina B
 
 ## Design a další nástroje
 - Photoshop, Lightroom, DaVinci Resolve, 3ds Max, ArchiCAD, SketchUp, Kentico, FlutterFlow

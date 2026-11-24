@@ -246,10 +246,8 @@
             </picture>
             <p class="profile-kicker" data-i18n="profile_kicker">Curriculum Vitae</p>
             <h1>Aleš Janáček</h1>
-            <p class="profile-role" data-i18n="profile_role">
-                Frontend &amp; Web Developer · JavaScript · Astro · Corporate Web Platforms
-            </p>
-            <p class="profile-location" data-i18n="profile_location">Prague, Czech Republic</p>
+            <p class="profile-role" data-i18n="profile_role">Frontend Developer | JavaScript, TypeScript, React &amp; Astro</p>
+            <p class="profile-location" data-i18n="profile_location">Prague, Czech Republic · Czech C1 · English C1</p>
 
             <div class="profile-links">
                 <div class="profile-actions">
@@ -343,15 +341,9 @@
                 <h2 id="summary-title" data-i18n="summary_title">Professional summary</h2>
             </div>
             <div class="section-body">
-                <p class="lead" data-i18n="summary_lead">
-                    Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites, and enterprise business automation solutions.
-                </p>
-                <p data-i18n-html="summary_p2">
-                    Skilled in <strong>JavaScript (ES6+)</strong>, <strong>Astro</strong>, HTML5, CSS3, Docker, SQL, and Git. Delivered responsive user interfaces, led the modernization and migration of corporate web platforms, and built SharePoint-based inventory systems adopted across 12 international offices.
-                </p>
-                <p data-i18n-html="summary_p3">
-                    Currently expanding capabilities into modern <strong>React</strong> and <strong>TypeScript</strong>. Use AI-assisted workflows for code exploration, prototyping, documentation, and test generation while reviewing all production changes manually.
-                </p>
+                <p class="lead" data-i18n="summary_lead">Frontend developer with 6+ years of commercial experience building corporate websites and internal applications.</p>
+                <p data-i18n-html="summary_p2">At Euro-Center, I migrated the corporate website to Astro and built an inventory system used across 12 international offices.</p>
+                <p data-i18n-html="summary_p3">I’m also building CupHere, a React and TypeScript app that uses geolocation to show nearby coffee meetups and updates the list in real time.</p>
             </div>
         </section>
 
@@ -376,11 +368,12 @@
                         <li data-i18n-html="exp1_b1">
                             Migrated the corporate website (<a href="https://www.euro-center.com" target="_blank" rel="noreferrer">euro-center.com</a>) to <strong>Astro</strong>, with source control in <strong>Azure Repos</strong> and automated deployment through <strong>Azure Pipelines</strong> to <strong>Azure Static Web Apps</strong>.
                         </li>
+                        <li data-i18n="exp1_map">Rebuilt the interactive network map in vanilla JavaScript, replacing a WordPress plugin and displaying office locations and medical provider counts by country.</li>
                         <li data-i18n-html="exp1_b2">
                             Achieved desktop PageSpeed Insights scores of <strong>98 Performance</strong>, <strong>97 Accessibility</strong>, <strong>96 Best Practices</strong>, and <strong>100 SEO</strong> for the new Astro website.
                         </li>
                         <li data-i18n-html="exp1_b3">
-                            Containerized the corporate WordPress platform using <strong>Docker</strong> on a dedicated Linux server in a secured <strong>DMZ</strong> environment; executed seamless server migrations and maintained corporate web infrastructure with 99.9% uptime.
+                            Containerized the corporate WordPress site with Docker on a dedicated Linux server in the DMZ, migrated it between servers, and maintained the hosting environment.
                         </li>
                         <li data-i18n-html="exp1_b4">
                             Developed and deployed a SharePoint-based Global Inventory system adopted by operational teams across 12 international offices.
@@ -466,7 +459,10 @@
                             <strong>Chief Specialist</strong> — Kyiv City State Administration: High-stakes project coordination and inter-departmental operations for the UEFA Euro 2012 preparations and staging.
                         </li>
                         <li data-i18n-html="exp4_b3">
-                            <strong>Sales Manager &amp; Technical Support</strong> — DiViPiX s.r.o. &amp; Apple: Client relations, hardware/software troubleshooting, and technical support.
+                            <strong>Sales Manager</strong> — DiViPiX s.r.o.: Client relations and sales.
+                        </li>
+                        <li data-i18n-html="exp4_b4">
+                            <strong>Technical Support</strong> — Apple: Hardware and software troubleshooting and technical support.
                         </li>
                     </ul>
                 </article>
@@ -487,7 +483,7 @@
                         </a>
                         <p class="project-type" data-i18n="cuphere_type">Independent product · Public release coming soon</p>
                         <h3 id="cuphere-title">CupHere</h3>
-                        <p class="project-summary" data-i18n="cuphere_summary">Designed and developed a location-based PWA for spontaneous, face-to-face coffee meetings nearby, with real-time meeting discovery, geolocation, authentication, and meeting coordination. Responsible for product design, UI/UX, frontend and backend integration, database architecture, security, performance, and deployment. Public release coming soon.</p>
+                        <p class="project-summary" data-i18n="cuphere_summary">Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth and real-time meeting updates, and automated deployment with GitHub Actions.</p>
                     </div>
                     <div class="project-footer">
                         <div class="tech-tag-list">
@@ -506,7 +502,7 @@
                             <span class="tech-tag">Hetzner</span>
                         </div>
                         <a class="project-link project-link--primary" href="https://cuphere.com" target="_blank" rel="noreferrer">
-                            <span data-i18n="cuphere_link">Visit cuphere.com — pre-launch landing page</span> <span aria-hidden="true">↗</span>
+                            <span data-i18n="cuphere_link">Pre-launch landing page</span> <span aria-hidden="true">↗</span>
                         </a>
                     </div>
                 </article>
@@ -669,7 +665,11 @@
                 <div class="skill-group">
                     <h3 data-i18n="skills_group_frontend">Frontend</h3>
                     <div class="skill-badges">
+                        <span class="skill-badge highlight">React</span>
+                        <a class="skill-badge highlight" href="#project-gym-tracker"
+                            aria-label="TypeScript in Gym Tracker" data-i18n-attr="aria-label:gym_tracker_skill_link">TypeScript</a>
                         <span class="skill-badge highlight">JavaScript (ES6+)</span>
+                        <span class="skill-badge">TanStack Query</span>
                         <span class="skill-badge highlight">Astro</span>
                         <span class="skill-badge">HTML5</span>
                         <span class="skill-badge">CSS3</span>
@@ -681,17 +681,10 @@
                 </div>
 
                 <div class="skill-group">
-                    <h3 data-i18n="skills_group_learning">Expanding / Learning</h3>
-                    <div class="skill-badges">
-                        <span class="skill-badge learning">React</span>
-                        <a class="skill-badge learning" href="#project-gym-tracker"
-                            aria-label="TypeScript in Gym Tracker" data-i18n-attr="aria-label:gym_tracker_skill_link">TypeScript</a>
-                    </div>
-                </div>
-
-                <div class="skill-group">
                     <h3 data-i18n="skills_group_backend">Backend &amp; Automation</h3>
                     <div class="skill-badges">
+                        <span class="skill-badge">Supabase</span>
+                        <span class="skill-badge">PostgreSQL</span>
                         <span class="skill-badge">REST APIs</span>
                         <span class="skill-badge">SQL</span>
                         <span class="skill-badge">SharePoint</span>
@@ -703,9 +696,12 @@
                     <h3 data-i18n="skills_group_devops">DevOps &amp; Infrastructure</h3>
                     <div class="skill-badges">
                         <span class="skill-badge highlight">Docker</span>
+                        <span class="skill-badge">GitHub Actions</span>
                         <span class="skill-badge">Git</span>
                         <span class="skill-badge">Linux / Bash</span>
-                        <span class="skill-badge">Azure</span>
+                        <span class="skill-badge">Azure Repos</span>
+                        <span class="skill-badge">Azure Pipelines</span>
+                        <span class="skill-badge">Azure Static Web Apps</span>
                         <span class="skill-badge">PowerShell</span>
                     </div>
                 </div>
@@ -730,6 +726,7 @@
                     <div>
                         <h3 data-i18n="edu2_school">National Technical University of Ukraine “Igor Sikorsky KPI”</h3>
                         <p data-i18n="edu2_fac">Faculty of Chemical Engineering · Master’s Degree in Polymer Processing Technology</p>
+                        <p data-i18n="edu2_recognition">Diploma recognized by the University of Chemistry and Technology, Prague</p>
                     </div>
                     <p class="date" data-i18n-html="edu2_date">Master’s degree<br />2003–2009</p>
                 </article>
@@ -746,10 +743,8 @@
                 <div>
                     <h3 data-i18n="details_languages_title">Languages</h3>
                     <p data-i18n-html="details_languages_p">
-                        <strong>Czech:</strong> Fluent / Full professional (C1)<br />
-                        <strong>English:</strong> Professional working proficiency (C1)<br />
-                        <strong>Ukrainian:</strong> Native<br />
-                        <strong>Russian:</strong> Native
+                        <strong>Czech</strong> — C1 (Advanced) · <strong>English</strong> — C1 (Advanced)<br />
+                        <strong>Ukrainian</strong> — Native · <strong>Russian</strong> — Native
                     </p>
                 </div>
                 <div>
@@ -759,15 +754,9 @@
                     </p>
                 </div>
                 <div class="wide-detail">
-                    <h3 data-i18n="details_certs_title">Certificates &amp; Additional Information</h3>
-                    <ul>
-                        <li data-i18n="details_certs_1">Diploma nostrified at the University of Chemistry and Technology, Prague</li>
-                        <li data-i18n="details_certs_2">Inventi. React Akademie, 2018</li>
-                        <li data-i18n="details_certs_3">Unicorn a.s., project .NET Hatchery, October 2017</li>
-                        <li data-i18n="details_certs_4">Refresher courses “Computer technology and design”, 2014</li>
-                        <li data-i18n="details_certs_5">JavaScript Advanced &amp; Essential — CyberBionic, 2015</li>
-                        <li data-i18n="details_certs_6">Driving license: B category</li>
-                    </ul>
+                    <h3 data-i18n="details_certs_title">Training &amp; Additional Information</h3>
+                    <p data-i18n="details_courses">Courses: React Akademie — Inventi, 2018 · .NET Hatchery (UML, SQL, C#, .NET, XML, ASP.NET MVC, WCF, Design Patterns, Git) — Unicorn a.s., October 2017 · JavaScript Advanced &amp; Essential — CyberBionic Systematics, 2015 · Computer Technology and Design — Postgraduate Institute UKRSTENO, 2014</p>
+                    <p data-i18n="details_licence">Driving licence: Category B</p>
                 </div>
 
                 <div class="wide-detail">

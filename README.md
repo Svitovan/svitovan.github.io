@@ -24,7 +24,7 @@ Personal website and curriculum vitae of **Aleš Janáček**, Frontend & Web Dev
 
 ## 🌟 Key Highlights
 - **Corporate Cloud Modernization:** Migrated the corporate website ([Euro-Center Holding SE](https://www.euro-center.com)) to **Astro**, with source control in **Azure Repos** and automated deployment through **Azure Pipelines** to **Azure Static Web Apps**; achieved PageSpeed Insights scores of **98 Performance**, **97 Accessibility**, **96 Best Practices**, and **100 SEO**.
-- **Docker & Infrastructure:** Containerized legacy corporate WordPress platform with **Docker** on a dedicated Linux server within a secured **DMZ** environment, ensuring 99.9% uptime and smooth server migrations.
+- **Docker & Infrastructure:** Containerized the corporate WordPress site with Docker on a dedicated Linux server in the DMZ, migrated it between servers, and maintained the hosting environment.
 - **Enterprise Solutions:** Developed a SharePoint-based Global Inventory System adopted across 12 international offices.
 - **Workflow Automation:** Automated core business and onboarding workflows via Power Automate and custom interfaces.
 - **Gym Tracker:** Built a mobile-first [strength-training PWA](https://github.com/Svitovan/gym-tracker) with TypeScript, Vite, and IndexedDB. It saves the active workout locally so it can be resumed after reloading.

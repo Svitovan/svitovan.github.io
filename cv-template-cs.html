@@ -8,9 +8,9 @@
 <body>
   <header class="cv-header">
     <h1>Aleš Janáček</h1>
-    <p class="headline">Frontendový vývojář · JavaScript · Astro · Firemní webové platformy</p>
+    <p class="headline">Frontendový vývojář | JavaScript, TypeScript, React a Astro</p>
     <div class="contact-bar">
-      <span>Praha, Česká republika</span>
+      <span>Praha, Česká republika · čeština C1 · angličtina C1</span>
       <span>•</span>
       <a href="tel:+420776677173">+420 776 677 173</a>
       <span>•</span>
@@ -26,9 +26,7 @@
 
   <section class="section">
     <h2 class="section-title">Profesní profil</h2>
-    <p class="summary-text">
-      Frontendový vývojář s více než šesti lety komerční praxe ve vývoji interních webových aplikací, firemních webů a řešení pro automatizaci podnikových procesů. Pracuji s JavaScriptem (ES6+), Astro, HTML, CSS, Dockerem, SQL a Gitem. Vedl jsem modernizaci firemního webu a jeho migraci do Azure, nasazoval aplikace v kontejnerech na linuxových serverech v DMZ a vytvořil systém evidence majetku na SharePointu, který využívají týmy ve 12 pobočkách. Rozvíjím své znalosti Reactu a TypeScriptu. Nástroje AI využívám při práci s kódem, prototypování, tvorbě dokumentace a testů. Všechny změny pro produkční nasazení ručně kontroluji.
-    </p>
+    <p class="summary-text">Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů a interních aplikací. V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích. Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu, která pomocí geolokace zobrazuje setkání u kávy v okolí a aktualizuje jejich seznam v reálném čase.</p>
   </section>
 
   <section class="section">
@@ -43,8 +41,9 @@
       </div>
       <ul class="job-bullets">
         <li>Převedl jsem firemní web (<strong>euro-center.com</strong>) na <strong>Astro</strong>. Zdrojový kód je v <strong>Azure Repos</strong> a web se automaticky nasazuje přes <strong>Azure Pipelines</strong> do <strong>Azure Static Web Apps</strong>.</li>
+        <li>Přepracoval jsem interaktivní mapu sítě v čistém JavaScriptu jako náhradu za plugin WordPressu. Mapa zobrazuje pobočky a počty poskytovatelů zdravotní péče podle zemí.</li>
         <li>Nový web v testu PageSpeed Insights pro počítače dosáhl skóre <strong>98 za výkon</strong>, <strong>97 za přístupnost</strong>, <strong>96 za osvědčené postupy</strong> a <strong>100 za SEO</strong>.</li>
-        <li>Nasadil jsem firemní WordPress v kontejnerech <strong>Dockeru</strong> na samostatném linuxovém serveru v <strong>DMZ</strong>. Migroval jsem servery bez výpadků a spravoval firemní webovou infrastrukturu s dostupností 99,9 %.</li>
+        <li>Nasadil jsem firemní web ve WordPressu v kontejnerech Dockeru na vyhrazeném linuxovém serveru v DMZ, migroval ho mezi servery a zajišťoval jeho provoz.</li>
         <li>Vyvinul a nasadil jsem systém evidence majetku (Global Inventory) na SharePointu, který využívají provozní týmy ve 12 pobočkách.</li>
         <li>V JavaScriptu, HTML a CSS jsem vytvářel interní rozhraní pro práci s firemními daty a provozními výkazy.</li>
         <li>Pomocí Power Automate a SharePointu jsem automatizoval nástup zaměstnanců, zpracování formulářů a další provozní postupy.</li>
@@ -85,13 +84,24 @@
         <div class="job-meta">2008 - 2017</div>
       </div>
       <ul class="job-bullets">
-        <li>Jako výkonný ředitel a znalec jsem vedl provoz aukčního domu <strong>Kleynod</strong>. Pro kyjevskou městskou správu jsem koordinoval přípravy na <strong>UEFA Euro 2012</strong>. V DiViPiX s.r.o. / Apple jsem se věnoval prodeji a technické podpoře.</li>
+        <li>Jako výkonný ředitel a znalec jsem vedl provoz aukčního domu Kleynod. Pro kyjevskou městskou správu jsem koordinoval přípravy na UEFA Euro 2012. V DiViPiX s.r.o. jsem pracoval jako obchodní manažer. Ve společnosti Apple jsem poskytoval technickou podporu.</li>
       </ul>
     </article>
   </section>
 
   <section class="section">
     <h2 class="section-title">Vybrané webové projekty</h2>
+
+    <article class="project-block">
+      <div class="project-header">
+        <span class="project-title">CupHere | Vlastní projekt v Reactu a TypeScriptu</span>
+        <a class="project-link" href="https://cuphere.com">Stránka před spuštěním</a>
+      </div>
+      <p class="project-desc">
+        Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth a aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions.
+        <br><em>React · TypeScript · TanStack Query · Supabase · PostgreSQL</em>
+      </p>
+    </article>
     <article class="project-block">
       <div class="project-header">
         <span class="project-title">Euro-Center · Modernizace firemního webu</span>
@@ -102,16 +112,7 @@
         <br><em>Technologie: Astro, Azure Repos, Azure Pipelines, Azure Static Web Apps, Docker, JavaScript, WordPress.</em>
       </p>
     </article>
-    <article class="project-block">
-      <div class="project-header">
-        <span class="project-title">CupHere — Vývoj vlastního produktu</span>
-        <a class="project-link" href="https://cuphere.com">cuphere.com</a>
-      </div>
-      <p class="project-desc">
-        Navrhl a vyvinul jsem geolokační PWA pro spontánní setkání u kávy s vyhledáváním v reálném čase, autentizací a koordinací setkání. Zajišťuji návrh produktu, UI/UX, integraci frontendu a backendu, databázovou architekturu, zabezpečení a nasazení. Veřejné spuštění se blíží.
-        <br><em>Technologie: React, TypeScript, Vite, React Hook Form, TanStack Query, Supabase, PostgreSQL, Supabase Auth, Realtime, RLS, PWA / Workbox, GitHub Actions, Hetzner.</em>
-      </p>
-    </article>
+
 
     <article class="project-block">
       <div class="project-header">
@@ -140,19 +141,15 @@
     <table class="skills-table">
       <tr>
         <th class="cat" scope="row">Frontend</th>
-        <td class="val">JavaScript (ES6+), Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery</td>
-      </tr>
-      <tr>
-        <th class="cat" scope="row">Další rozvoj</th>
-        <td class="val">React, TypeScript</td>
+        <td class="val">React, TypeScript, JavaScript (ES6+), TanStack Query, Astro, HTML5, CSS3, Tailwind CSS, Bootstrap, WordPress, jQuery</td>
       </tr>
       <tr>
         <th class="cat" scope="row">Backend a data</th>
-        <td class="val">REST API, SQL, SharePoint, Power Automate</td>
+        <td class="val">Supabase, PostgreSQL, REST API, SQL, SharePoint, Power Automate</td>
       </tr>
       <tr>
         <th class="cat" scope="row">DevOps a cloud</th>
-        <td class="val">Docker, Linux, Bash, Git, Microsoft Azure (Azure Repos, Azure Pipelines, Azure Static Web Apps), PowerShell</td>
+        <td class="val">Git, GitHub Actions, Docker, Linux, Bash, Azure Repos, Azure Pipelines, Azure Static Web Apps, PowerShell</td>
       </tr>
     </table>
   </section>
@@ -169,7 +166,7 @@
     <article class="edu-block">
       <div>
         <div class="edu-title">Národní technická univerzita Ukrajiny „Ihor Sikorsky KPI“</div>
-        <div class="edu-sub">Fakulta chemického inženýrství · Magisterský titul v oboru technologie zpracování polymerů</div>
+        <div class="edu-sub">Fakulta chemického inženýrství · Magisterský titul v oboru technologie zpracování polymerů<br>Diplom uznán Vysokou školou chemicko-technologickou v Praze (VŠCHT)</div>
       </div>
       <div class="edu-meta">2003 - 2009</div>
     </article>
@@ -178,22 +175,15 @@
   <section class="section">
     <h2 class="section-title">Jazyky</h2>
     <ul class="compact-list">
-      <li><strong>Čeština:</strong> C1, plynulá znalost</li>
-      <li><strong>Angličtina:</strong> C1, profesní znalost</li>
-      <li><strong>Ukrajinština:</strong> rodilý mluvčí</li>
-      <li><strong>Ruština:</strong> rodilý mluvčí</li>
+      <li><strong>Čeština</strong> — C1 (pokročilá úroveň) · <strong>Angličtina</strong> — C1 (pokročilá úroveň)</li>
+      <li><strong>Ukrajinština</strong> — rodný jazyk · <strong>Ruština</strong> — rodný jazyk</li>
     </ul>
   </section>
 
   <section class="section">
     <h2 class="section-title">Kurzy a další informace</h2>
-    <ul class="compact-list">
-      <li>Diplom uznán Vysokou školou chemicko-technologickou v Praze (VŠCHT)</li>
-      <li>React Akademie, Inventi, 2018</li>
-      <li>.NET Hatchery (UML, SQL, C#, .NET, návrhové vzory, Git), Unicorn a.s., 2017</li>
-      <li>JavaScript Advanced &amp; Essential, CyberBionic Systematics, 2015</li>
-      <li>Řidičský průkaz skupiny B</li>
-    </ul>
+    <p class="summary-text"><strong>Kurzy:</strong> React Akademie — Inventi, 2018 · .NET Hatchery (UML, SQL, C#, .NET, XML, ASP.NET MVC, WCF, návrhové vzory, Git) — Unicorn a.s., říjen 2017 · JavaScript Advanced &amp; Essential — CyberBionic Systematics, 2015 · Počítačová technika a design — Postgraduální institut UKRSTENO, 2014</p>
+    <p class="summary-text"><strong>Řidičský průkaz:</strong> skupina B</p>
   </section>
   <section class="section">
     <h2 class="section-title">Design a další nástroje</h2>

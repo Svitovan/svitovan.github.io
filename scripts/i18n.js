@@ -13,8 +13,8 @@
 
             // Profile Header
             profile_kicker: 'Curriculum Vitae',
-            profile_role: 'Frontend & Web Developer · JavaScript · Astro · Corporate Web Platforms',
-            profile_location: 'Prague, Czech Republic',
+            profile_role: 'Frontend Developer | JavaScript, TypeScript, React & Astro',
+            profile_location: 'Prague, Czech Republic · Czech C1 · English C1',
             download_cv: 'Download CV (EN)',
             download_cv_title: 'Download the English CV (PDF)',
             download_cv_file: 'CV-Ales-Janacek.pdf',
@@ -36,14 +36,13 @@
 
             // Section 01: Summary
             summary_title: 'Professional summary',
-            summary_lead: 'Frontend Developer with 6+ years of commercial experience building internal web applications, modern corporate websites, and enterprise business automation solutions.',
-            summary_p2: 'Skilled in <strong>JavaScript (ES6+)</strong>, <strong>Astro</strong>, HTML5, CSS3, Docker, SQL, and Git. Delivered responsive user interfaces, led the modernization and migration of corporate web platforms, and built SharePoint-based inventory systems adopted across 12 international offices.',
-            summary_p3: 'Currently expanding capabilities into modern <strong>React</strong> and <strong>TypeScript</strong>. Use AI-assisted workflows for code exploration, prototyping, documentation, and test generation while reviewing all production changes manually.',
+            summary_lead: 'Frontend developer with 6+ years of commercial experience building corporate websites and internal applications.',
+            summary_p2: 'At Euro-Center, I migrated the corporate website to Astro and built an inventory system used across 12 international offices.',
+            summary_p3: 'I’m also building CupHere, a React and TypeScript app that uses geolocation to show nearby coffee meetups and updates the list in real time.',
 
             // Section 02: Skills
             skills_title: 'Technical skills',
             skills_group_frontend: 'Frontend',
-            skills_group_learning: 'Expanding / Learning',
             skills_group_backend: 'Backend & Automation',
             skills_group_devops: 'DevOps & Infrastructure',
 
@@ -52,8 +51,9 @@
             exp1_role: 'Frontend Developer',
             exp1_date: '2020–Present<br />Prague, Czech Republic',
             exp1_b1: 'Migrated the corporate website (<a href="https://www.euro-center.com" target="_blank" rel="noreferrer">euro-center.com</a>) to <strong>Astro</strong>, with source control in <strong>Azure Repos</strong> and automated deployment through <strong>Azure Pipelines</strong> to <strong>Azure Static Web Apps</strong>.',
+            exp1_map: 'Rebuilt the interactive network map in vanilla JavaScript, replacing a WordPress plugin and displaying office locations and medical provider counts by country.',
             exp1_b2: 'Achieved desktop PageSpeed Insights scores of <strong>98 Performance</strong>, <strong>97 Accessibility</strong>, <strong>96 Best Practices</strong>, and <strong>100 SEO</strong> for the new Astro website.',
-            exp1_b3: 'Containerized the corporate WordPress platform using <strong>Docker</strong> on a dedicated Linux server in a secured <strong>DMZ</strong> environment; executed seamless server migrations and maintained corporate web infrastructure with 99.9% uptime.',
+            exp1_b3: 'Containerized the corporate WordPress site with Docker on a dedicated Linux server in the DMZ, migrated it between servers, and maintained the hosting environment.',
             exp1_b4: 'Developed and deployed a SharePoint-based Global Inventory system adopted by operational teams across 12 international offices.',
             exp1_b5: 'Built interactive internal interfaces with JavaScript, HTML, and CSS for corporate employees managing business data, reporting, and operational records.',
             exp1_b6: 'Automated employee onboarding, administrative workflows, and operational requests using Power Automate and SharePoint integration.',
@@ -73,7 +73,8 @@
             exp4_intro: 'Transitioned into software engineering with a proven background in executive management and high-stakes municipal coordination, providing strong business acumen, high accountability, and cross-functional leadership skills:',
             exp4_b1: '<strong>Chief Executive & Expert</strong> — Auction House “Kleynod”: General business operations, organizational leadership, auction management, and client strategy.',
             exp4_b2: '<strong>Chief Specialist</strong> — Kyiv City State Administration: High-stakes project coordination and inter-departmental operations for the UEFA Euro 2012 preparations and staging.',
-            exp4_b3: '<strong>Sales Manager & Technical Support</strong> — DiViPiX s.r.o. & Apple: Client relations, hardware/software troubleshooting, and technical support.',
+            exp4_b3: '<strong>Sales Manager</strong> — DiViPiX s.r.o.: Client relations and sales.',
+            exp4_b4: '<strong>Technical Support</strong> — Apple: Hardware and software troubleshooting and technical support.',
 
             // Section 04: Projects
             projects_title: 'Selected web projects',
@@ -100,8 +101,8 @@
             proj2_mockup_title: 'Visit achatina.com.ua (opens in new tab)',
 
             cuphere_type: 'Independent product · Public release coming soon',
-            cuphere_summary: "Designed and developed a location-based PWA for spontaneous, face-to-face coffee meetings nearby, with real-time meeting discovery, geolocation, authentication, and meeting coordination. Responsible for product design, UI/UX, frontend and backend integration, database architecture, security, performance, and deployment. Public release coming soon.",
-            cuphere_link: 'Visit cuphere.com — pre-launch landing page',
+            cuphere_summary: "Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth and real-time meeting updates, and automated deployment with GitHub Actions.",
+            cuphere_link: 'Pre-launch landing page',
 
             // Section 05: Education
             education_title: 'Education',
@@ -116,17 +117,14 @@
             // Section 06: Details
             details_title: 'More about me',
             details_languages_title: 'Languages',
-            details_languages_p: '<strong>Czech:</strong> Fluent / Full professional (C1)<br /><strong>English:</strong> Professional working proficiency (C1)<br /><strong>Ukrainian:</strong> Native<br /><strong>Russian:</strong> Native',
+            details_languages_p: '<strong>Czech</strong> — C1 (Advanced) · <strong>English</strong> — C1 (Advanced)<br /><strong>Ukrainian</strong> — Native · <strong>Russian</strong> — Native',
             details_hobbies_title: 'Hobbies & Interests',
             details_tools_title: 'Design & Additional Tools',
             details_hobbies_p: '<a href="https://www.flickr.com/photos/yanchyk/albums/72157648694393397" target="_blank" rel="noreferrer">Photography</a>, videography, <a href="https://soundcloud.com/svitovan/tracks" target="_blank" rel="noreferrer">music production</a>, cycling, workout, yoga',
-            details_certs_title: 'Certificates & Additional Information',
-            details_certs_1: 'Diploma nostrified at the University of Chemistry and Technology, Prague',
-            details_certs_2: 'Inventi. React Akademie, 2018',
-            details_certs_3: 'Unicorn a.s., project .NET Hatchery, October 2017',
-            details_certs_4: 'Refresher courses “Computer technology and design”, 2014',
-            details_certs_5: 'JavaScript Advanced & Essential — CyberBionic, 2015',
-            details_certs_6: 'Driving license: B category',
+            edu2_recognition: 'Diploma recognized by the University of Chemistry and Technology, Prague',
+            details_certs_title: 'Training & Additional Information',
+            details_courses: 'Courses: React Akademie — Inventi, 2018 · .NET Hatchery (UML, SQL, C#, .NET, XML, ASP.NET MVC, WCF, Design Patterns, Git) — Unicorn a.s., October 2017 · JavaScript Advanced & Essential — CyberBionic Systematics, 2015 · Computer Technology and Design — Postgraduate Institute UKRSTENO, 2014',
+            details_licence: 'Driving licence: Category B',
 
             // Footer & Toast
             footer_text: 'Aleš Janáček · Frontend & Web Developer · Prague',
@@ -141,8 +139,8 @@
 
             // Profile Header
             profile_kicker: 'Životopis',
-            profile_role: 'Frontend & Web Developer · JavaScript · Astro · Firemní webové platformy',
-            profile_location: 'Praha, Česká republika',
+            profile_role: 'Frontendový vývojář | JavaScript, TypeScript, React a Astro',
+            profile_location: 'Praha, Česká republika · čeština C1 · angličtina C1',
             download_cv: 'Stáhnout CV (CS)',
             download_cv_title: 'Stáhnout český životopis (PDF)',
             download_cv_file: 'CV-Ales-Janacek-cs.pdf',
@@ -164,14 +162,13 @@
 
             // Section 01: Summary
             summary_title: 'Profesní profil',
-            summary_lead: 'Frontend Developer s více než 6 lety komerčních zkušeností s vývojem interních webových aplikací, moderních firemních webů a řešení pro automatizaci podnikových procesů.',
-            summary_p2: 'Zkušenosti s <strong>JavaScriptem (ES6+)</strong>, <strong>Astro</strong>, HTML5, CSS3, Dockerem, SQL a Gitem. Navrhoval jsem a dodával responzivní uživatelská rozhraní, vedl modernizaci a migraci firemních webových platforem a vyvinul systém evidence majetku na bázi SharePointu, který využívá 12 zahraničních poboček.',
-            summary_p3: 'V současné době rozšiřuji své dovednosti v moderním <strong>Reactu</strong> a <strong>TypeScriptu</strong>. Využívám AI workflows pro průzkum kódu, prototypování, tvorbu dokumentace a generování testů s důslednou manuální revizí všech produkčních změn.',
+            summary_lead: 'Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů a interních aplikací.',
+            summary_p2: 'V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích.',
+            summary_p3: 'Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu, která pomocí geolokace zobrazuje setkání u kávy v okolí a aktualizuje jejich seznam v reálném čase.',
 
             // Section 02: Skills
             skills_title: 'Technické dovednosti',
             skills_group_frontend: 'Frontend',
-            skills_group_learning: 'Vzdělávání a rozvoj',
             skills_group_backend: 'Backend a automatizace',
             skills_group_devops: 'DevOps a infrastruktura',
 
@@ -180,8 +177,9 @@
             exp1_role: 'Frontend Developer',
             exp1_date: '2020–současnost<br />Praha, Česká republika',
             exp1_b1: 'Migrace firemního webu (<a href="https://www.euro-center.com" target="_blank" rel="noreferrer">euro-center.com</a>) do <strong>Astro</strong>, se správou verzí v <strong>Azure Repos</strong> a automatizovaným nasazením přes <strong>Azure Pipelines</strong> do <strong>Azure Static Web Apps</strong>.',
+            exp1_map: 'Přepracoval jsem interaktivní mapu sítě v čistém JavaScriptu jako náhradu za plugin WordPressu. Mapa zobrazuje pobočky a počty poskytovatelů zdravotní péče podle zemí.',
             exp1_b2: 'Dosažení skóre PageSpeed Insights pro desktop: <strong>98 Performance</strong>, <strong>97 Accessibility</strong>, <strong>96 Best Practices</strong> a <strong>100 SEO</strong> u nového webu v Astro.',
-            exp1_b3: 'Kontejnerizace firemní platformy WordPress pomocí <strong>Dockeru</strong> na dedikovaném linuxovém serveru v zabezpečené <strong>DMZ</strong> zóně; realizace bezvýpadkových migrací serverů a správa firemní webové infrastruktury s dostupností 99,9 %.',
+            exp1_b3: 'Nasadil jsem firemní web ve WordPressu v kontejnerech Dockeru na vyhrazeném linuxovém serveru v DMZ, migroval ho mezi servery a zajišťoval jeho provoz.',
             exp1_b4: 'Vývoj a nasazení globálního systému evidence majetku (Global Inventory) na SharePointu, využívaného operativními týmy ve 12 zahraničních pobočkách.',
             exp1_b5: 'Tvorba interaktivních interních rozhraní v JavaScriptu, HTML a CSS pro zaměstnance spravující obchodní data, reporting a provozní záznamy.',
             exp1_b6: 'Automatizace onboardingu zaměstnanců, administrativních procesů a provozních požadavků pomocí integrace Power Automate a SharePointu.',
@@ -201,7 +199,8 @@
             exp4_intro: 'Přechod do softwarového vývoje s bohatým zázemím v exekutivním managementu a koordinaci rozsáhlých městských projektů, které přinášejí hluboké obchodní povědomí, vysokou míru odpovědnosti a schopnost vést mezioborové týmy:',
             exp4_b1: '<strong>Výkonný ředitel a znalec</strong> — Aukční dům „Kleynod“: Řízení firemních operací, organizační vedení, organizace aukcí a klientská strategie.',
             exp4_b2: '<strong>Hlavní specialista</strong> — Kyjevská městská státní správa: Koordinace klíčových projektů a meziútvarových operací při přípravě a realizaci fotbalového šampionátu UEFA Euro 2012.',
-            exp4_b3: '<strong>Obchodní manažer a technická podpora</strong> — DiViPiX s.r.o. & Apple: Péče o klienty, řešení hardwarových i softwarových problémů a technická podpora.',
+            exp4_b3: '<strong>Obchodní manažer</strong> — DiViPiX s.r.o.: Péče o klienty a prodej.',
+            exp4_b4: '<strong>Technická podpora</strong> — Apple: Řešení hardwarových i softwarových problémů a technická podpora.',
 
             // Section 04: Projects
             projects_title: 'Vybrané webové projekty',
@@ -228,8 +227,8 @@
             proj2_mockup_title: 'Navštívit achatina.com.ua (otevře se v nové záložce)',
 
             cuphere_type: 'Vlastní produkt · Veřejné spuštění se blíží',
-            cuphere_summary: "Navrhl a vyvinul jsem geolokační PWA pro spontánní osobní setkání u kávy v okolí, s vyhledáváním setkání v reálném čase, geolokací, autentizací a koordinací setkání. Zajišťuji návrh produktu, UI/UX, integraci frontendu a backendu, databázovou architekturu, zabezpečení, výkon a nasazení. Veřejné spuštění se blíží.",
-            cuphere_link: 'Navštívit cuphere.com — stránka před spuštěním',
+            cuphere_summary: "Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth a aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions.",
+            cuphere_link: 'Stránka před spuštěním',
 
             // Section 05: Education
             education_title: 'Vzdělání',
@@ -244,17 +243,14 @@
             // Section 06: Details
             details_title: 'Více o mně',
             details_languages_title: 'Jazyky',
-            details_languages_p: '<strong>Čeština:</strong> Plynulá / plná profesionální znalost (C1)<br /><strong>Angličtina:</strong> Profesionální pracovní znalost (C1)<br /><strong>Ukrajinština:</strong> Rodilý mluvčí<br /><strong>Ruština:</strong> Rodilý mluvčí',
+            details_languages_p: '<strong>Čeština</strong> — C1 (pokročilá úroveň) · <strong>Angličtina</strong> — C1 (pokročilá úroveň)<br /><strong>Ukrajinština</strong> — rodný jazyk · <strong>Ruština</strong> — rodný jazyk',
             details_hobbies_title: 'Zájmy a koníčky',
             details_tools_title: 'Design a další nástroje',
             details_hobbies_p: '<a href="https://www.flickr.com/photos/yanchyk/albums/72157648694393397" target="_blank" rel="noreferrer">Fotografie</a>, videotvorba, <a href="https://soundcloud.com/svitovan/tracks" target="_blank" rel="noreferrer">hudební produkce</a>, cyklistika, posilování, jóga',
-            details_certs_title: 'Certifikáty a doplňující informace',
-            details_certs_1: 'Diplom nostrifikován na Vysoké škole chemicko-technologické v Praze (VŠCHT)',
-            details_certs_2: 'Inventi. React Akademie, 2018',
-            details_certs_3: 'Unicorn a.s., projekt .NET Hatchery, říjen 2017',
-            details_certs_4: 'Rekvalifikační kurzy „Počítačová technika a design“, 2014',
-            details_certs_5: 'JavaScript Advanced & Essential — CyberBionic, 2015',
-            details_certs_6: 'Řidičský průkaz: skupina B',
+            edu2_recognition: 'Diplom uznán Vysokou školou chemicko-technologickou v Praze (VŠCHT)',
+            details_certs_title: 'Kurzy a další informace',
+            details_courses: 'Kurzy: React Akademie — Inventi, 2018 · .NET Hatchery (UML, SQL, C#, .NET, XML, ASP.NET MVC, WCF, návrhové vzory, Git) — Unicorn a.s., říjen 2017 · JavaScript Advanced & Essential — CyberBionic Systematics, 2015 · Počítačová technika a design — Postgraduální institut UKRSTENO, 2014',
+            details_licence: 'Řidičský průkaz: skupina B',
 
             // Footer & Toast
             footer_text: 'Aleš Janáček · Frontend & Web Developer · Praha',
