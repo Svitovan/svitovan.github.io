@@ -47,6 +47,11 @@ Frontend Developer with 6+ years of commercial experience building internal web 
 - Re-architected the corporate web platform from a dedicated Dockerized WordPress setup to an Astro website deployed automatically through Azure Pipelines to Azure Static Web Apps, improving performance, security, and maintainability.
 - **Website:** [www.euro-center.com](https://www.euro-center.com)
 
+### CupHere — Independent Product Development
+- **Tech:** React, TypeScript, Vite, React Hook Form, TanStack Query, Supabase, PostgreSQL, Supabase Auth, Realtime, RLS, PWA / Workbox, GitHub Actions, Hetzner
+- Designed and developed a location-based PWA for spontaneous coffee meetings, with geolocation, real-time discovery, authentication and meeting coordination. Owned product design, UI/UX, frontend/backend integration, database architecture, security and deployment. Public release coming soon.
+- **Website:** [cuphere.com](https://cuphere.com) — pre-launch landing page.
+
 ### Gym Tracker · Strength Training PWA
 - **Tech:** TypeScript, Vite, IndexedDB, Service Worker
 - Built a mobile-first app for logging sets, weights, and reps, with a rest timer. IndexedDB saves the active workout so users can resume after a reload. A service worker caches app files for offline use.

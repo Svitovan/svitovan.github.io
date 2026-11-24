@@ -683,9 +683,22 @@ button:focus-visible {
   border-radius: 8px;
 }
 
-.project-card--teaser {
-  align-self: start;
-  min-height: auto;
+.cuphere-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 960 / 589;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card-bg);
+}
+
+.cuphere-preview img {
+  display: block;
+  width: min(45%, 144px);
+  height: auto;
+  border-radius: 18%;
 }
 
 .project-card:hover {

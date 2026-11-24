@@ -47,6 +47,11 @@ Frontend Developer s více než 6 lety komerčních zkušeností s vývojem inte
 - Kompletní přepracování firemní webové platformy z dedikovaného Docker WordPress řešení na moderní web v Astro s automatickým nasazením přes Azure Pipelines do Azure Static Web Apps, což přineslo vyšší výkon, bezpečnost a snazší údržbu.
 - **Web:** [www.euro-center.com](https://www.euro-center.com)
 
+### CupHere — Vývoj vlastního produktu
+- **Technologie:** React, TypeScript, Vite, React Hook Form, TanStack Query, Supabase, PostgreSQL, Supabase Auth, Realtime, RLS, PWA / Workbox, GitHub Actions, Hetzner
+- Navrhl a vyvinul jsem geolokační PWA pro spontánní setkání u kávy s vyhledáváním v reálném čase, autentizací a koordinací setkání. Zajišťuji návrh produktu, UI/UX, integraci frontendu a backendu, databázovou architekturu, zabezpečení a nasazení. Veřejné spuštění se blíží.
+- **Web:** [cuphere.com](https://cuphere.com) — stránka před spuštěním.
+
 ### Gym Tracker · Záznam silového tréninku
 - **Technologie:** TypeScript, Vite, IndexedDB, Service Worker
 - Vytvořil jsem mobilní webovou aplikaci PWA pro záznam sérií, vah a opakování s časovačem pauz. Rozpracovaný trénink se ukládá do IndexedDB, takže v něm lze pokračovat po obnovení stránky. Service worker ukládá soubory aplikace do mezipaměti pro použití offline.

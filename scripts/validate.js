@@ -47,6 +47,7 @@ const requiredAssets = [
     'assets/euro-center-preview.webp',
     'assets/euro-center-preview.jpg',
     'assets/gym-tracker-preview.webp',
+    'assets/cuphere-icon.png',
     'assets/achatina-preview.webp',
     'assets/achatina-preview.jpg'
 ];

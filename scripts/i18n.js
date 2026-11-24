@@ -99,8 +99,9 @@
             proj2_link: 'Visit achatina.com.ua <span aria-hidden="true">↗</span>',
             proj2_mockup_title: 'Visit achatina.com.ua (opens in new tab)',
 
-            project_in_development_title: 'Project in development',
-            project_in_development_summary: 'I’m building a product of my own for web and mobile. The React and TypeScript PWA shares a Supabase backend with the Flutter app. I’m keeping the idea under wraps for now.',
+            cuphere_type: 'Independent product · Public release coming soon',
+            cuphere_summary: "Designed and developed a location-based PWA for spontaneous, face-to-face coffee meetings nearby, with real-time meeting discovery, geolocation, authentication, and meeting coordination. Responsible for product design, UI/UX, frontend and backend integration, database architecture, security, performance, and deployment. Public release coming soon.",
+            cuphere_link: 'Visit cuphere.com — pre-launch landing page',
 
             // Section 05: Education
             education_title: 'Education',
@@ -226,8 +227,9 @@
             proj2_link: 'Navštívit achatina.com.ua <span aria-hidden="true">↗</span>',
             proj2_mockup_title: 'Navštívit achatina.com.ua (otevře se v nové záložce)',
 
-            project_in_development_title: 'Projekt ve vývoji',
-            project_in_development_summary: 'Vyvíjím vlastní produkt pro web i mobil. Progresivní webová aplikace v Reactu a TypeScriptu sdílí backend v Supabase s mobilní aplikací ve Flutteru. Samotný nápad zatím nechávám pod pokličkou.',
+            cuphere_type: 'Vlastní produkt · Veřejné spuštění se blíží',
+            cuphere_summary: "Navrhl a vyvinul jsem geolokační PWA pro spontánní osobní setkání u kávy v okolí, s vyhledáváním setkání v reálném čase, geolokací, autentizací a koordinací setkání. Zajišťuji návrh produktu, UI/UX, integraci frontendu a backendu, databázovou architekturu, zabezpečení, výkon a nasazení. Veřejné spuštění se blíží.",
+            cuphere_link: 'Navštívit cuphere.com — stránka před spuštěním',
 
             // Section 05: Education
             education_title: 'Vzdělání',
