@@ -37,7 +37,7 @@ Technologie: JavaScript, Astro, Azure Repos, Azure Pipelines, Azure Static Web A
 
 ### Dřívější manažerské a provozní zkušenosti
 *2008 - 2017*
-- Jako výkonný ředitel a znalec jsem vedl provoz aukčního domu Kleynod. Pro kyjevskou městskou správu jsem koordinoval přípravy na UEFA Euro 2012. V DiViPiX s.r.o. jsem pracoval jako obchodní manažer. Ve společnosti Apple jsem poskytoval technickou podporu.
+- Vedl jsem aukční dům Kleynod jako výkonný ředitel a znalec, koordinoval přípravy na UEFA Euro 2012 pro kyjevskou městskou správu, pracoval v maloobchodním prodeji v Official Ferrari Store a poskytoval technickou podporu ve společnosti Apple.
 
 
 ## Vybrané webové projekty

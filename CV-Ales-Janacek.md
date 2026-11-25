@@ -37,7 +37,7 @@ Tech: JavaScript, Astro, Azure Repos, Azure Pipelines, Azure Static Web Apps, Do
 
 ### Earlier Leadership & Operational Experience
 *2008 – 2017*
-- I ran Auction House Kleynod as Chief Executive and Expert. I coordinated preparations for UEFA Euro 2012 for the Kyiv City Administration. I worked as a sales manager at DiViPiX s.r.o. and in technical support at Apple.
+- Led Auction House Kleynod as Chief Executive and Expert, coordinated UEFA Euro 2012 preparations for the Kyiv City Administration, worked in retail sales at the Official Ferrari Store, and provided technical support at Apple.
 
 
 ## Selected Web Projects

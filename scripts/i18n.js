@@ -36,8 +36,10 @@
 
             // Section 01: Summary
             summary_title: 'Professional summary',
+            summary_lead: 'Frontend developer with 6+ years of commercial experience building corporate websites and internal applications.',
             summary_lead: 'Frontend developer with 6+ years of commercial experience building corporate websites, internal applications, and workflow automations.',
             summary_p2: 'At Euro-Center, I migrated the corporate website to Astro and built an inventory system used across 12 international offices.',
+            summary_p3: 'I’m also building CupHere, a React and TypeScript app that uses geolocation to show nearby coffee meetups and updates the list in real time.',
             summary_p3: 'I’m also building CupHere, a React and TypeScript app using geolocation and real-time updates, where I leverage AI coding agents and automated workflows to accelerate end-to-end delivery from architecture to deployment.',
 
             // Section 02: Skills
@@ -77,7 +79,7 @@
             exp4_intro: 'Transitioned into software engineering with a proven background in executive management and high-stakes municipal coordination, providing strong business acumen, high accountability, and cross-functional leadership skills:',
             exp4_b1: '<strong>Chief Executive & Expert</strong> — Auction House “Kleynod”: General business operations, organizational leadership, auction management, and client strategy.',
             exp4_b2: '<strong>Chief Specialist</strong> — Kyiv City State Administration: High-stakes project coordination and inter-departmental operations for the UEFA Euro 2012 preparations and staging.',
-            exp4_b3: '<strong>Sales Manager</strong> — DiViPiX s.r.o.: Client relations and sales.',
+            exp4_b3: '<strong>Retail Sales</strong> — Official Ferrari Store: Client relations and sales.',
             exp4_b4: '<strong>Technical Support</strong> — Apple: Hardware and software troubleshooting and technical support.',
 
             // Section 04: Projects
@@ -105,6 +107,7 @@
             proj2_mockup_title: 'Visit achatina.com.ua (opens in new tab)',
 
             cuphere_type: 'Independent product · Public release coming soon',
+            cuphere_summary: "Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth and real-time meeting updates, and automated deployment with GitHub Actions.",
             cuphere_summary: 'Built a location-based web app for finding and coordinating nearby coffee meetups. Integrated geolocation, Supabase Auth, real-time meeting updates, and automated deployment with GitHub Actions. Applied AI coding agents (Antigravity, Codex, Claude Code) across prototyping, refactoring, and test/output validation to deliver full-stack features solo.',
             cuphere_link: 'Pre-launch landing page',
 
@@ -166,8 +169,10 @@
 
             // Section 01: Summary
             summary_title: 'Profesní profil',
+            summary_lead: 'Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů a interních aplikací.',
             summary_lead: 'Jsem frontendový vývojář s více než šesti lety komerční praxe ve vývoji firemních webů, interních aplikací a automatizací pracovních postupů.',
             summary_p2: 'V Euro-Center jsem převedl firemní web na Astro a vytvořil systém evidence majetku, který využívá 12 poboček v různých zemích.',
+            summary_p3: 'Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu, která pomocí geolokace zobrazuje setkání u kávy v okolí a aktualizuje jejich seznam v reálném čase.',
             summary_p3: 'Vyvíjím také CupHere, aplikaci v Reactu a TypeScriptu s geolokací a aktualizacemi v reálném čase, kde využívám AI kódovací agenty a automatizované workflow pro zrychlení dodávky od architektury až po nasazení.',
 
             // Section 02: Skills
@@ -207,7 +212,7 @@
             exp4_intro: 'Přechod do softwarového vývoje s bohatým zázemím v exekutivním managementu a koordinaci rozsáhlých městských projektů, které přinášejí hluboké obchodní povědomí, vysokou míru odpovědnosti a schopnost vést mezioborové týmy:',
             exp4_b1: '<strong>Výkonný ředitel a znalec</strong> — Aukční dům „Kleynod“: Řízení firemních operací, organizační vedení, organizace aukcí a klientská strategie.',
             exp4_b2: '<strong>Hlavní specialista</strong> — Kyjevská městská státní správa: Koordinace klíčových projektů a meziútvarových operací při přípravě a realizaci fotbalového šampionátu UEFA Euro 2012.',
-            exp4_b3: '<strong>Obchodní manažer</strong> — DiViPiX s.r.o.: Péče o klienty a prodej.',
+            exp4_b3: '<strong>Maloobchodní prodej</strong> — Official Ferrari Store: Péče o klienty a prodej.',
             exp4_b4: '<strong>Technická podpora</strong> — Apple: Řešení hardwarových i softwarových problémů a technická podpora.',
 
             // Section 04: Projects
@@ -235,6 +240,7 @@
             proj2_mockup_title: 'Navštívit achatina.com.ua (otevře se v nové záložce)',
 
             cuphere_type: 'Vlastní produkt · Veřejné spuštění se blíží',
+            cuphere_summary: "Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth a aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions.",
             cuphere_summary: 'Vytvořil jsem aplikaci pro vyhledávání a koordinaci setkání u kávy v okolí. Integroval jsem geolokaci, Supabase Auth, aktualizace setkání v reálném čase a automatizoval nasazování pomocí GitHub Actions. Při samostatném vývoji full-stack funkcí jsem využíval AI kódovací agenty (Antigravity, Codex, Claude Code) napříč prototypováním, refaktoringem a validací testů a výstupů.',
             cuphere_link: 'Stránka před spuštěním',
 
